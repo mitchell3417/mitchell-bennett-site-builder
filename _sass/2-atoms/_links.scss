@@ -1,0 +1,42 @@
+/*
+*******************************************************************
+DEFAULT LINK STYLES
+*******************************************************************
+*/
+a {
+  color: $link;
+  text-decoration: none;
+  transition: 0.2s all ease-in-out;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: darken($link, 10%);
+    text-decoration: underline;
+  }
+
+  &.inactive{
+    color: $gray-200!important;
+    cursor: none;
+  }
+
+  &.has-white-color {
+    &:hover,
+    &:focus,
+    &:active {
+      color: lighten($brand-color-1, 60%);
+      text-decoration: none;
+    }
+  }
+}
+
+.a--dark {
+  color: $gray-900;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: lighten($gray-900, 10%);
+    text-decoration: none;
+  }
+}

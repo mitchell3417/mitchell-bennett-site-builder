@@ -1,0 +1,57 @@
+.section--message {
+
+  .container {
+    max-width: 750px;
+  }
+}
+
+
+.quote {
+
+  .content {
+    background: $gray-100;
+    position: relative;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 20px 0 black(.25);
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: $space--sm 0;
+    border-radius: 30px;
+    box-shadow: 0 0 12px black(.25);
+    @include md {
+      padding: $space--xxl $space--xxl;
+    }
+
+    > div {
+      display: flex;
+      flex-direction: column;
+      @include md {
+        flex-direction: row;
+      }
+    }
+
+    .image {
+      font-family: serif;
+      margin-right: 20px;
+      flex-basis: 125px;
+      width: 125px;
+      height: 125px;
+      @include md {
+        flex-basis: 250px;
+        width: 250px;
+        height: 250px;
+      }
+
+      svg {
+        height: 100%;
+        width: 100%;
+      }
+    }
+
+    .text {
+      flex-basis: calc(100% - 300px);
+    }
+  }
+}

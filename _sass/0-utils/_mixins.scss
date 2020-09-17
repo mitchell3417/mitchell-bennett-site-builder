@@ -1,0 +1,96 @@
+/*------------------------------------*\
+    $MIXINS
+\*------------------------------------*/
+
+/*Media Queries*/
+@mixin xs {
+  @media screen and (min-width: #{$xs-width}) {
+    @content;
+  }
+}
+@mixin sm {
+  @media screen and (min-width: #{$sm-width}) {
+    @content;
+  }
+}
+@mixin md {
+  @media screen and (min-width: #{$md-width}) {
+    @content;
+  }
+}
+@mixin lg {
+  @media (min-width: #{$lg-width}) {
+    @content;
+  }
+}
+@mixin xl {
+  @media (min-width: #{$xl-width}) {
+    @content;
+  }
+}
+
+@mixin xxl {
+  @media (min-width: #{$xxl-width}) {
+    @content;
+  }
+}
+
+@mixin print {
+  @media print {
+    @content;
+  }
+}
+
+/*Black & White*/
+@function black($opacity) {
+    @return rgba(0,0,0,$opacity)
+}
+@function white($opacity){
+    @return rgba(255,255,255,$opacity)
+}
+
+
+/* Responsive Font Sizes */
+/*Usage: @include font-sizes( 30px, 36px, 40px );*/
+@mixin font-sizes( $base: null, $tablet: null, $medium: null, $large: null, $xl: null ) {
+  @if ( $base ) {
+    font-size: $base;
+  }
+
+  @if( $tablet ) {
+    @include sm {
+      font-size: $tablet;
+    }
+  }
+
+  @if( $medium ) {
+    @include md {
+      font-size: $medium;
+    }
+  }
+
+  @if( $large ) {
+    @include lg {
+      font-size: $large;
+    }
+  }
+
+  @if( $xl ) {
+    @include xl {
+      font-size: $xl;
+    }
+  }
+}
+
+/*Gradient*/
+/*Usage: @include linear-gradient(#000, #BADA55);*/
+@mixin linear-gradient($angle, $fromColor, $toColor) {
+  background-color: $toColor; /* Fallback Color */
+  background-image: -webkit-gradient(linear, left top, left bottom, from($fromColor), to($toColor)); /* Saf4+, Chrome */
+  background-image: -webkit-linear-gradient(#{$angle}deg, $fromColor, $toColor); /* Chrome 10+, Saf5.1+, iOS 5+ */
+  background-image:    -moz-linear-gradient(#{$angle}deg, $fromColor, $toColor); /* FF3.6 */
+  background-image:     -ms-linear-gradient(#{$angle}deg, $fromColor, $toColor); /* IE10 */
+  background-image:      -o-linear-gradient(#{$angle}deg, $fromColor, $toColor); /* Opera 11.10+ */
+  background-image:         linear-gradient(#{$angle}deg, $fromColor, $toColor);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#{$fromColor}', EndColorStr='#{$toColor}');
+}

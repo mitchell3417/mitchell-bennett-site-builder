@@ -1,0 +1,28 @@
+#masthead {
+  background: $white;
+
+  .site-logo-wrapper {
+    padding: 5% 0;
+    width: 50%;
+
+    @include md {
+      width: auto;
+      padding: 2% 0;
+    }
+
+    a {
+      width: 100%;
+      max-width: 350px;
+      display: block;
+
+      @include md {
+        display: inline;
+      }
+
+      img {
+        width: 100%;
+        max-width: 350px;
+      }
+    }
+  }
+}

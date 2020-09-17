@@ -1,0 +1,174 @@
+/*
+*******************************************************************
+DEFAULT TEXT STYLES
+*******************************************************************
+*/
+body {
+  @include font-sizes(1em);
+  font-family: $serif;
+  color: $gray-900;
+  font-size: 20px;
+}
+
+::selection {
+  background: $link;
+  color: #fff;
+  text-shadow: none;
+}
+
+/*
+*******************************************************************
+HORIZONTAL RULE STYLES
+*******************************************************************
+*/
+.content {
+  hr,
+  .wp-block-separator {
+    max-width: $max-content-width;
+  }
+}
+
+hr,
+.wp-block-separator {
+  border: 0;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.2);
+  margin: $space--lg auto;
+}
+
+abbr {
+  border-bottom: 1px dotted $gray-200;
+  cursor: help;
+}
+
+/*
+*******************************************************************
+TEXT ALIGNMENT STYLES
+*******************************************************************
+*/
+.text--right {
+  text-align: right;
+}
+.text--left {
+  text-align: left;
+}
+.text--center {
+  text-align: center;
+}
+
+/*
+*******************************************************************
+OPACITY
+*******************************************************************
+*/
+.opacity--50 {
+  opacity: .5;
+}
+
+/*
+*******************************************************************
+LINE HEIGHT
+*******************************************************************
+*/
+.line-height--08 {
+  line-height: 0.8;
+}
+.line-height--10 {
+  line-height: 1;
+}
+.line-height--12 {
+  line-height: 1.2;
+}
+.line-height--15 {
+  line-height: 1.5;
+}
+/*
+*******************************************************************
+TEXT CASE STYLES
+*******************************************************************
+*/
+.text--lowercase {
+  text-transform: lowercase;
+}
+.text--uppercase {
+  text-transform: uppercase;
+}
+.text--capitalize {
+  text-transform: capitalize;
+}
+
+/*
+*******************************************************************
+TEXT HIGHLIGHT STYLES
+*******************************************************************
+*/
+.text--highlight {
+  color: $brand-color-1;
+}
+
+/*
+*******************************************************************
+TEXT STATE STYLES
+*******************************************************************
+*/
+.text--italic {
+  font-style: italic;
+}
+.text--oblique {
+  font-style: oblique;
+}
+.text--underline {
+  text-decoration: underline;
+}
+.text--overline {
+  text-decoration: overline;
+}
+.text--line-through {
+  text-decoration: line-through;
+}
+.text--style-none {
+  text-decoration: none;
+}
+
+/*
+*******************************************************************
+LETTER SPACING
+*******************************************************************
+*/
+.letter-spacing--1 {
+  letter-spacing: 1px;
+}
+.letter-spacing--2 {
+  letter-spacing: 2px;
+}
+.letter-spacing--3 {
+  letter-spacing: 3px;
+}
+.letter-spacing--4 {
+  letter-spacing: 4px;
+}
+.letter-spacing--5 {
+  letter-spacing: 5px;
+}
+
+
+/*
+*******************************************************************
+WORDPRESS CLASS STYLES
+*******************************************************************
+*/
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+.sticky {
+  position: relative;
+}
+
+.bypostauthor {
+  position: relative;
+}

@@ -1,0 +1,30 @@
+.checkmark {
+  padding: 0 45px;
+  position: relative;
+  margin-bottom: 25px;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: $brand-color-1;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+  }
+
+  &:after {
+    content: '';
+    border: 2px solid #fff;
+    border-top: none;
+    border-right: none;
+    height: 5px;
+    left: 4px;
+    position: absolute;
+    top: 5px;
+    transform: rotate(-45deg);
+    width: 10px;
+    border-color: $white;
+  }
+}

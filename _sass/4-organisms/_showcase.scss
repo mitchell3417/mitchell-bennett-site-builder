@@ -1,0 +1,49 @@
+.section--showcase {
+  color: white;
+  background: linear-gradient(180deg, lighten($brand-color-3, 4%) 0%, lighten($brand-color-3, 4%) 33.33333%, $brand-color-3 33.33333%, $brand-color-3 66.66666%, darken($brand-color-3, 4%) 66.666666%, darken($brand-color-3, 4%) 100%);
+  @include md {
+    background: linear-gradient(90deg, lighten($brand-color-3, 4%) 0%, lighten($brand-color-3, 4%) 50%, darken($brand-color-3, 4%) 51%, darken($brand-color-3, 4%) 100%);
+  }
+
+  .showcase {
+    display: flex;
+    align-items: center;
+    height: 102px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    text-align: center;
+    @include md {
+      padding: $space--sm $space--xxl;
+    }
+
+    &:nth-child(1) {
+      background: lighten($brand-color-3, 4%);
+      padding-left: 0;
+    }
+    &:nth-child(2) {
+      background: $brand-color-3;
+    }
+    &:nth-child(3) {
+      background: darken($brand-color-3, 4%);
+    }
+
+    h6 {
+      margin: 0;
+      font-weight: normal;
+      padding-right: 0;
+    }
+  }
+
+  .showcase__icon {
+    width: 35px;
+    margin-right: 20px;
+
+    svg {
+      fill: $white;
+      height: 35px;
+      width: 35px;
+    }
+  }
+}

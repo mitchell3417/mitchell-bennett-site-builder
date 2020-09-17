@@ -1,0 +1,27 @@
+.button-container {
+  text-align: left;
+  @include sm {
+    text-align: right;
+  }
+}
+
+.button-container,
+.site-images-container {
+  order: 1;
+  @include sm {
+    order: 0;
+  }
+}
+
+.blog, .archive {
+  p {
+    font-size: 1em;
+    @include sm {
+      font-size: 1.1em;
+    }
+  }
+
+  h2 {
+    margin-bottom: $space--xs;
+  }
+}

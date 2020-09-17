@@ -1,0 +1,166 @@
+/*
+*******************************************************************
+DEFAULT (theme-color) BUTTON
+*******************************************************************
+*/
+button, [data-portal-view] {
+  cursor: pointer;
+}
+
+.btn,
+.cta a {
+  display: inline-block;
+  position: relative;
+  padding: $space--md $space--xl;
+  border-radius: 5px;
+  background: $brand-color-1;
+  @include linear-gradient(135, $brand-color-1, $brand-color-5);
+  color: white(1);
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms;
+  font-size: 1em;
+  border: none;
+  box-shadow: 0 10px 30px 0 black(.25);
+  overflow: hidden;
+  z-index: 2;
+  white-space: nowrap;
+  font-family: $sans;
+
+  &:disabled {
+    @include linear-gradient(135, $gray-500, $gray-500);
+    box-shadow: 0 0 0 transparent;
+    &:hover {
+      @include linear-gradient(135, $gray-500, $gray-500);
+      box-shadow: 0 0 0 transparent;
+      cursor: not-allowed;
+    }
+  }
+
+  &:hover,
+  &:focus,
+  &:active {
+    text-decoration: none;
+    color: white(1);
+    // @include linear-gradient(135, darken($brand-color-1, 10%), darken($brand-color-5, 10%));
+    box-shadow: 0 12px 40px 0 black(.25);
+    outline: none;
+    cursor: pointer;
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    @include linear-gradient(135, darken($brand-color-1, 10%), darken($brand-color-5, 20%));
+    transition: opacity .25s;
+    opacity: 0;
+  }
+
+  &:hover::before {
+    opacity: 1;
+  }
+
+}
+
+/*
+*******************************************************************
+BUTTON SIZING
+*******************************************************************
+*/
+.btn--large {
+  padding: $space--sm $space--lg;
+  font-size: 18px;
+  @include md {
+    padding: $space--lg $space--xxl;
+    font-size: 0.8em;
+  }
+}
+.btn--small {
+  padding: $space--sm $space--lg;
+  &:after {
+    width: 12px;
+    height: 12px;
+    top: 50%;
+  }
+}
+.btn--full-width {
+  width: 100%!important;
+
+  &.btn--small{
+    padding: $space--sm $space--xs;
+  }
+}
+
+.btn--center {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+/*
+*******************************************************************
+WHITE BUTTON
+*******************************************************************
+*/
+.btn--white {
+  background: white(1);
+  color: $button;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background: transparent;
+    text-decoration: none;
+    color: $button;
+    box-shadow: 0 12px 40px 0 black(.25);
+    background: $gray-100;
+  }
+
+}
+
+/*
+*******************************************************************
+OUTLINE BUTTON
+*******************************************************************
+*/
+.btn--outline {
+  background: transparent;
+  color: $gray-100;
+  box-shadow: none;
+  border: 3px solid $gray-100;
+  border-radius: 8px;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background: transparent;
+    text-decoration: none;
+    color: $gray-700;
+    background: $gray-100;
+    &::before {
+      opacity: 0;
+    }
+  }
+
+}
+
+
+/*
+*******************************************************************
+HEADER BUTTON
+*******************************************************************
+*/
+.cta a,
+.btn.btn--cta {
+  @include linear-gradient(135, $brand-color-2, $brand-color-2);
+  &::before {
+    @include linear-gradient(135, darken($brand-color-2, 10%), darken($brand-color-2, 20%));
+  }
+}

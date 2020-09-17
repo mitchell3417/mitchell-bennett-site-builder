@@ -1,0 +1,51 @@
+.section--work-sample {
+
+  h3 {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  .site-images {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin-top: 10px;
+
+    @include md {
+      margin-top: 0;
+    }
+
+    .site-image {
+      transition: transform .3s ease-in-out;
+
+      &:hover {
+        transform: translate(0, -10px);
+      }
+    }
+  }
+
+  .alt-image {
+    width: 28%;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    box-shadow: 2px 2px 6px 0 black(.5);
+  }
+
+  .main-image {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 75%;
+    box-shadow: 3px 3px 10px 0 black(.5);
+  }
+
+  .mobile-image {
+    position: absolute;
+    right: 10%;
+    width: 21%;
+    bottom: -10px;
+    box-shadow: 5px 5px 15px 0 black(.3);
+
+  }
+}

@@ -1,0 +1,33 @@
+/*
+*******************************************************************
+RESPONSIVE MEDIA
+*******************************************************************
+*/
+.is-type-video {
+  max-width: 1080px;
+}
+
+.player,
+.video-container,
+.video {
+  position: relative;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+
+.player iframe,
+.video-container iframe,
+.video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.wp-block-video {
+  video {
+    width: 100%;
+    max-width: 1080px;
+  }
+}

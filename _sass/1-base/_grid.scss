@@ -1,0 +1,198 @@
+/* based on Pintsize (https://github.com/alistairtweedie/Pintsize/) */
+
+/*******************************************************************************
+Defaults (only change these values)
+*******************************************************************************/
+$columns: 12 !default;
+
+// Width of a gutter in pixels
+$gutter-width: 10px !default;
+
+// Breakpoints
+// 'name': width,
+$breakpoints: (
+  "sm": $sm-width,
+  "md": $md-width,
+  "lg": $lg-width,
+);
+
+/*******************************************************************************
+Calculate column width in percentage
+*******************************************************************************/
+@function column($value) {
+  @return $value / $columns * 100%;
+}
+
+/*******************************************************************************
+Flex-box styles
+*******************************************************************************/
+
+.container {
+  max-width: $max-width;
+  width: 90%;
+  margin: 0 auto;
+  box-sizing: border-box;
+
+  .full {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+.content {
+  max-width: 900px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.flex {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+
+.flex--start {
+  justify-content: flex-start;
+
+  .col {
+    flex-grow: 0;
+  }
+}
+
+.flex--center {
+  justify-content: center;
+  .col {
+    flex-grow: 0;
+  }
+}
+
+.flex--end {
+  justify-content: flex-end;
+  .col {
+    flex-grow: 0;
+  }
+}
+
+.flex--top {
+  align-items: flex-start;
+}
+
+.flex--middle {
+  align-items: center;
+}
+
+.flex--baseline {
+  align-items: baseline;
+}
+
+.flex--wrap {
+  flex-wrap: wrap;
+}
+
+.flex--nowrap {
+  flex-wrap: nowrap;
+}
+
+.flex--row {
+  flex-direction: row;
+}
+
+.flex--bottom {
+  align-items: flex-end;
+  .col,
+  .wp-block-column {
+    flex-grow: 1;
+  }
+}
+
+.flex--around {
+  justify-content: space-around;
+  .col,
+  .wp-block-column {
+    flex-grow: 0;
+    flex-shrink: 1;
+  }
+}
+
+.flex--between {
+  justify-content: space-between;
+  .col,
+  .wp-block-column {
+    flex-grow: 0;
+    flex-shrink: 1;
+  }
+}
+
+.flex--reverse {
+  flex-direction: row-reverse;
+}
+
+.flex--column {
+  flex-direction: column;
+}
+
+.flex--column-reverse {
+  flex-direction: column-reverse;
+}
+
+.align-self--end {
+  align-self: flex-end;
+}
+
+.col,
+.wp-block-column {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding-left: ($gutter-width / 2);
+  padding-right: ($gutter-width / 2);
+}
+
+/*******************************************************************************
+Calculate the columns and offsets
+*******************************************************************************/
+
+// Cycles through $columns and calculates widths and offsets
+@for $i from 1 through $columns {
+  .col--#{$i} {
+    flex-basis: column($i);
+    max-width: column($i);
+    display: block;
+  }
+
+  .col__offset--#{$i} {
+    margin-left: column($i);
+  }
+}
+
+.col--hide{
+  display: none;
+}
+/*******************************************************************************
+Calculate the columns at each breakpoint
+*******************************************************************************/
+
+// Iterate through each breakpoint
+@each $breakpoint, $val in $breakpoints {
+  // Create the media query at each breakpoint
+  @media screen and (min-width: #{$val}) {
+    // Iterate through each column
+    @for $i from 1 through $columns {
+      // Create the column class at breakpoint
+      .col__#{$breakpoint}--#{$i} {
+        flex-basis: column($i);
+        max-width: column($i);
+        display: block;
+      }
+    }
+  }
+}
+
+
+.col__md__offset--3 {
+  @include md {
+    margin-left: 25%;
+  }
+}

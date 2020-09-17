@@ -1,0 +1,11 @@
+.page-projects {
+
+  p a {
+    color: white;
+    text-decoration: underline;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}

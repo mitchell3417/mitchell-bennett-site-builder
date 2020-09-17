@@ -1,0 +1,60 @@
+/*
+*******************************************************************
+CORE LIST STYLES
+*******************************************************************
+*/
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.content,
+article {
+  ol,
+  ul {
+    list-style: initial;
+    padding-left: 2em;
+    margin: 1.25em auto 1.25em auto;
+    width: 100%;
+    max-width: $max-content-width;
+  }
+  ol {
+    list-style: decimal;
+  }
+}
+
+/*
+*******************************************************************
+DEFINITION LISTS
+*******************************************************************
+*/
+dl {
+  overflow: hidden;
+  margin: 0 0 $space;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-left: 0;
+}
+
+/*
+*******************************************************************
+LISTS WITHIN TEXT AREAS
+*******************************************************************
+*/
+.text {
+  ol,
+  ul {
+    list-style: initial;
+    margin-left: 1.5rem;
+  }
+  ol {
+    list-style-type: decimal;
+  }
+}

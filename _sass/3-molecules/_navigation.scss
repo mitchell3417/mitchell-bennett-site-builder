@@ -1,0 +1,148 @@
+/*
+*******************************************************************
+GENERAL NAVIGATION
+*******************************************************************
+*/
+
+.header__nav {
+  width: 100%;
+  height: 0;
+  transition: all .5s ease-in-out;
+
+  &.toggled-on {
+    display: block;
+    height: 176px;
+  }
+
+  @include md {
+    display: block;
+    width: auto;
+    height: auto;
+    &.toggled-on {
+      height: auto;
+    }
+  }
+
+  ul.menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    margin-left: -50vw;
+    @include md {
+      width: auto;
+      left: 0;
+      margin-left: 0;
+    }
+
+    li.menu-item {
+      width: 100%;
+      padding: 0;
+      border-top: 1px solid $gray-300;
+      &:last-child {
+        border-top-color: white(1);
+        z-index: 0;
+      }
+      @include md {
+        border-top: 0;
+        width: auto;
+        &:last-child {
+          z-index: 0;
+        }
+      }
+
+
+      a {
+        text-align: center;
+        padding: $space--xs 0;
+        font-family: $sans;
+        display: block;
+        border-radius: 0;
+        width: 100%;
+        @include md {
+          border-radius: 5px;
+          padding: $space--sm $space--md;
+        }
+      }
+    }
+  }
+}
+
+/*
+*******************************************************************
+MOBILE MENU ICON
+*******************************************************************
+*/
+
+.nav--icon--mobile {
+  width: 35px;
+  height: 30px;
+  margin: 0;
+  transform: rotate(0deg);
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-bottom: 8px;
+
+  @include md {
+    display: none;
+  }
+
+  span {
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background: $brand-color-1;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(180deg);
+    transition: 0.5s ease-in-out;
+  }
+  span:nth-child(1) {
+    top: 10px;
+  }
+
+  span:nth-child(2),
+  span:nth-child(3) {
+    top: 19px;
+  }
+
+  span:nth-child(4) {
+    top: 28px;
+  }
+
+  &.toggled-on {
+    margin-bottom: 0px;
+
+    span {
+
+      &:nth-child(1) {
+        top: 19px;
+        width: 0%;
+        left: 50%;
+      }
+      &:nth-child(2) {
+        top: 12px;
+        transform: rotate(45deg);
+      }
+      &:nth-child(3) {
+        top: 12px;
+        transform: rotate(-45deg);
+      }
+      &:nth-child(4) {
+        top: 19px;
+        width: 0%;
+        left: 50%;
+      }
+    }
+  }
+  &:hover,
+  &:active {
+    background: none;
+    opacity: 0.5;
+  }
+}

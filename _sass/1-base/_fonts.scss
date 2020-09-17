@@ -1,0 +1,26 @@
+$sans: "-apple-system", "system-ui", "Verdana", sans-serif;
+$serif: "Palatino Linotype", "Book Antiqua", "Palatino", serif;
+
+.sans {
+  font-family: $sans;
+}
+.serif {
+  font-family: $serif;
+}
+
+.font--bold {
+  font-weight: bold;
+}
+
+.font--normal {
+  font-weight: normal;
+}
+
+
+.text--underline {
+  text-decoration: underline;
+}
+
+.text--line-through {
+  text-decoration: line-through;
+}

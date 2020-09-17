@@ -1,0 +1,52 @@
+/*
+*******************************************************************
+BACKGROUND SECTIONS
+*******************************************************************
+*/
+.bg--default {
+  background-color: #fff;
+}
+.bg--primary {
+  background-color: $primary;
+  color: #fff;
+
+  a {
+    color: #fff;
+
+    &:hover,
+    &:focus {
+      color: #fff;
+    }
+  }
+}
+
+.bg--tilt {
+  position: relative;
+  z-index: 1;
+  padding: 20px 0 50px;
+  @include md {
+    padding: 50px 0 100px;
+  }
+
+  &:after, &:before {
+    content: '';
+    background: inherit;
+    display: block;
+    height: 50%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    transform: skewY(-1.5deg);
+    z-index: -1;
+  }
+
+  &:after {
+    transform-origin: 100%;
+    bottom: 0;
+  }
+
+  &:before {
+    top: 0px;
+    transform-origin: 0%;
+  }
+}
