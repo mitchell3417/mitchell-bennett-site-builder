@@ -1,4 +1,4 @@
-/* based on Pintsize (https://github.com/alistairtweedie/Pintsize/) */
+@use 'sass:math';
 
 /*******************************************************************************
 Defaults (only change these values)
@@ -20,7 +20,7 @@ $breakpoints: (
 Calculate column width in percentage
 *******************************************************************************/
 @function column($value) {
-  @return $value / $columns * 100%;
+  @return math.div($value, $columns) * 100%;
 }
 
 /*******************************************************************************
@@ -146,8 +146,8 @@ Flex-box styles
   flex-basis: auto;
   max-width: 100%;
   box-sizing: border-box;
-  padding-left: ($gutter-width / 2);
-  padding-right: ($gutter-width / 2);
+  padding-left: math.div($gutter-width, 2);
+  padding-right: math.div($gutter-width, 2);
 }
 
 /*******************************************************************************

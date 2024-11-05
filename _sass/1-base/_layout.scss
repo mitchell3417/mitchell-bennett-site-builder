@@ -1,3 +1,5 @@
+@use 'sass:math';
+
 body, html{
   width: 100%;
   min-height: 100vh;
@@ -536,7 +538,7 @@ $space-attributes: margin, margin-top, margin-right, margin-bottom, margin-left,
 @each $space-attribute in $space-attributes{
   @for $i from 1 through 40 {
     .#{$space-attribute}--#{$i}{
-      #{$space-attribute}: #{$i/10}em;
+      #{$space-attribute}: #{math.div($i,10)}em;
     }
   }
 }

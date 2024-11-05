@@ -1,0 +1,124 @@
+.page--resume {
+	margin-bottom: 120px;
+	line-height: 1.2;
+	
+	.blue-background {
+		.container {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+		background: #1F2F50;
+		padding: 30px 0;
+		
+		h1, h2, a, p {
+			color: white;
+		}
+		
+		.image {
+			display: none;
+		}
+	}
+	
+	.container {
+		max-width: 900px;
+	}
+	
+	h1 {
+		font-size: 36px;
+		margin: 0;
+		color: #1F2F50;
+	}
+	
+	.stats {
+		text-transform: uppercase;
+		font-size: 11px;
+		font-family: "-apple-system","system-ui","Verdana",sans-serif;
+		margin: 12px 0 0;
+	}
+	
+	h2 {
+		font-size: 19px;
+		margin: 0;
+		color: #1F2F50;
+	}
+	
+	hr {
+		height: 3px;
+		margin: 0 auto;
+		background: #1F2F50;
+	}
+	
+	h3 {
+		font-size: 21px;
+		color: #1F2F50;
+		border-top: 1px solid #1F2F50;
+		margin-top: 48px;
+	}
+	
+	h4 {
+		font-size: 16px;
+		margin-top: 0;
+		margin-bottom: 12px;
+		
+		span {
+			font-weight: 400;
+			font-style: italic;
+			color: #808080;
+		}
+	}
+	
+	ul, p {
+		font-size: 16px;
+	}
+	
+	ul {
+		list-style-type: disc;
+		margin-left: 40px;
+	}
+	
+	ul.no-bullets {
+		list-style-type: none;
+		margin-left: 0;
+	}
+	
+	.exp-details {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 36px;
+		margin-bottom: 0;
+		text-transform: uppercase;
+		font-size: 14px;
+		font-family: "-apple-system","system-ui","Verdana",sans-serif;
+		
+		&.mt-12 {
+			margin-top: 12px;
+		}
+		
+		span {
+			display: block;
+		}
+	}
+	
+	@media (min-width: 900px) {
+		p, h4, ul.no-bullets {
+			margin-left: 275px;
+		}
+		
+		ul {
+			margin-left: 315px;
+		}
+		
+		.blue-background {
+			
+			.image {
+				display: block;
+				width: 120px;
+				
+				img {
+					border-radius: 50%;
+				}
+			}
+		}
+	}
+}
