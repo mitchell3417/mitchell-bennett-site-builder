@@ -54,21 +54,21 @@
             <div class="container">
                 <header class="flex flex--middle">
                     <div class="col col--12 col__sm--9">
-                        <h1 class="text--uppercase letter-spacing--2 font--normal margin-top--none margin-bottom--none">The Crosspoint Church</h1>
+                        <h1 class="text--uppercase letter-spacing--2 font--normal margin-top--none margin-bottom--none">Ukatsu</h1>
                     </div>
                     <div class="col col--12 col__sm--3 button-container">
                         <div>
-                            <a href="https://www.thecrosspoint.com/" class="btn btn--outline btn--small" target="_blank">Visit Website</a>
+                            <a href="https://portal.ukatsu.org/portal" class="btn btn--outline btn--small" target="_blank">Visit Website</a>
                         </div>
                     </div>
                     <div class="col col--12">
-                        <p class="margin-top--none sans opacity--50"><small>Wordpress | Custom Theme | Web Development</small></p>
+                        <p class="margin-top--none sans opacity--50"><small>Wordpress | Custom Theme | Custom Plugin | Stripe | Web Development</small></p>
                     </div>
                     <div class="col col--12 site-images-container">
                         <div class="site-images">
-                            <img src="/assets/images/crosspoint/crosspoint-alt.jpg" alt="Embracing a simpler life screenshot of blog page" class="site-image alt-image">
-                            <img src="/assets/images/crosspoint/crosspoint-main.jpg" alt="Embracing a simpler life screenshot of home page" class="site-image main-image">
-                            <img src="/assets/images/crosspoint/crosspoint-mobile.jpg" alt="Embracing a simpler life screenshot of mobile site" class="site-image mobile-image">
+                            <img src="/assets/images/ukatsu/ukatsu-alt.jpg" alt="Embracing a simpler life screenshot of blog page" class="site-image alt-image">
+                            <img src="/assets/images/ukatsu/ukatsu-main.jpg" alt="Embracing a simpler life screenshot of home page" class="site-image main-image">
+                            <img src="/assets/images/ukatsu/ukatsu-mobile.jpg" alt="Embracing a simpler life screenshot of mobile site" class="site-image mobile-image">
                         </div>
                     </div>
                 </header>
@@ -76,8 +76,8 @@
         </div>
         <div class="full-width padding-top--lg padding-bottom--xxl">
             <div class="container content margin-top--xxl margin-bottom--xxl">
-                <p>Crosspoint Church wanted to maintain the visual identity they had already established while increasing the visual appeal and functionality of their site. The custom theme was designed by <a href="https://pautlerdesign.com">Pautler Design</a>. One significant upgrade was the new media player that seamlessly switches between audio and video feeds and is easily managed on the back end.</p>                <figure class="wp-block-image size-large">
-                    <img src="/assets/images/crosspoint/crosspoint-main.jpg" alt="Embracing a simpler life screenshot of home page">
+                <p>We are a full service place of comfort.</p>                <figure class="wp-block-image size-large">
+                    <img src="/assets/images/ukatsu/ukatsu-main.jpg" alt="Embracing a simpler life screenshot of home page">
                 </figure>
             </div>
         </div>
@@ -89,31 +89,33 @@
             <div class="container">
                 <div class="flex margin-top--xxl margin-bottom--xxl">
                     <div id="contact" class="col col--12 col__md--6 col__md__offset--3 contact--center">
-                        <form id="footer-contact-form" action="https://formspree.io/xqkyljpo" method="POST">
+<!--                        <form id="footer-contact-form" action="https://formspree.io/xqkyljpo" method="POST">-->
                             <div class="form-header">
                                 <h3>Let's Work Together</h3>
+                                <p>Have a project you'd like to discuss? Let's chat.</p>
+                                <p>Email me at <strong>hi(at)mitchellbennett.rocks</strong></p>
                             </div>
-                            <div class="form-body">
-                                <div class="form-field">
-                                    <label class="gfield_label gfield_label_before_complex">Name<span class="required">*</span></label>
-                                    <input type="text" name="Name" aria-label="First name" aria-required="true" aria-invalid="false" required>
-                                </div>
-                                <div class="form-field">
-                                    <label>Email<span class="required">*</span></label>
-                                    <input type="Email" name="Email" aria-label="Name" aria-required="true" required>
-                                </div>
-                                <div class="form-field">
-                                    <label class="gfield_label gfield_label_before_complex">Message<span class="required">*</span></label>
-                                    <textarea name="Message" class="textarea medium" aria-required="true" aria-invalid="false" rows="7" cols="50" required></textarea>
-                                </div>
-                                    <div class="form-field">
-                                    <button id="footer-contact-submit" type="submit" value="Submit" class="btn g-recaptcha" data-sitekey="6LeugakZAAAAAOpoEYk04t4i-lzNCAIjQNGVU7JU" data-callback='onSubmit' data-action='submit'>Submit</button>
-                                </div>
-                                <div class="form-field">
-                                    <p id="my-form-status"></p>
-                                </div>
-                            </div>
-                        </form>
+<!--                            <div class="form-body">-->
+<!--                                <div class="form-field">-->
+<!--                                    <label class="gfield_label gfield_label_before_complex">Name<span class="required">*</span></label>-->
+<!--                                    <input type="text" name="Name" aria-label="First name" aria-required="true" aria-invalid="false" required>-->
+<!--                                </div>-->
+<!--                                <div class="form-field">-->
+<!--                                    <label>Email<span class="required">*</span></label>-->
+<!--                                    <input type="Email" name="Email" aria-label="Name" aria-required="true" required>-->
+<!--                                </div>-->
+<!--                                <div class="form-field">-->
+<!--                                    <label class="gfield_label gfield_label_before_complex">Message<span class="required">*</span></label>-->
+<!--                                    <textarea name="Message" class="textarea medium" aria-required="true" aria-invalid="false" rows="7" cols="50" required></textarea>-->
+<!--                                </div>-->
+<!--                                    <div class="form-field">-->
+<!--                                    <button id="footer-contact-submit" type="submit" value="Submit" class="btn g-recaptcha" data-sitekey="6LeugakZAAAAAOpoEYk04t4i-lzNCAIjQNGVU7JU" data-callback='onSubmit' data-action='submit'>Submit</button>-->
+<!--                                </div>-->
+<!--                                <div class="form-field">-->
+<!--                                    <p id="my-form-status"></p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </form>-->
                     </div>
                 </div>
             </div>
@@ -122,11 +124,11 @@
             </div>
         </footer>
         <script src="/assets/js/main.js"></script>
-        <script src="https://www.google.com/recaptcha/api.js"></script>
-        <script>
-            function onSubmit(token) {
-                document.getElementById('footer-contact-form').submit();
-            }
-         </script>
+<!--        <script src="https://www.google.com/recaptcha/api.js"></script>-->
+<!--        <script>-->
+<!--            function onSubmit(token) {-->
+<!--                document.getElementById('footer-contact-form').submit();-->
+<!--            }-->
+<!--         </script>-->
     </body>
 </html>

@@ -1,28 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Mitchell Bennett Rocks</title>
-        <link rel="stylesheet" href="/assets/css/style.css" type="text/css" media="all">
-        <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicons/apple-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="60x60" href="/assets/favicons/apple-icon-60x60.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="/assets/favicons/apple-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="/assets/favicons/apple-icon-76x76.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="/assets/favicons/apple-icon-114x114.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="/assets/favicons/apple-icon-120x120.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="/assets/favicons/apple-icon-144x144.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="/assets/favicons/apple-icon-152x152.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-icon-180x180.png">
-        <link rel="icon" type="image/png" sizes="192x192"  href="/assets/favicons/android-icon-192x192.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="96x96" href="/assets/favicons/favicon-96x96.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
-        <link rel="manifest" href="/assets/favicons/manifest.json">
-        <meta name="msapplication-TileColor" content="#ffffff">
-        <meta name="msapplication-TileImage" content="/assets/favicons/ms-icon-144x144.png">
-        <meta name="theme-color" content="#ffffff">
-    </head>
+<?php include '_includes/head.php'; ?>
     <body>
     	<div class="position--relative has-white-background-color">
 			<main>
@@ -37,7 +13,7 @@
 									<p class="stats"><a href="https://mitchellbennett.rocks/">mitchellbennett.rocks</a>&nbsp;&nbsp;|&nbsp; <a href="tel:+16363527177">(636) 352–7177</a>&nbsp;&nbsp;|&nbsp; <a href="mailto:mitchell@mitchellbennett.rocks">mitchell@mitchellbennett.rocks</a>&nbsp;&nbsp;|&nbsp; <a href="https://www.google.com/maps/place/Eldon,+MO+65026/@38.34683,-92.5774685,13z">Eldon, MO</a></p>
 								</div>
 								<div class="image">
-									<img src="/assets/images/mitch-headshot-400x400.jpg" alt="Mitchell Bennett">
+									<img src="<?php the_assets_dir( '/images/mitch-headshot-400x400.jpg' ); ?>" alt="Mitchell Bennett">
 								</div>
 							</div>
 						</div>
@@ -112,6 +88,4 @@
 					</div>
 				</div>
 			</main>
-		        </div>
-    </body>
-</html>
+		<?php include '_includes/footer-blank.php'; ?>

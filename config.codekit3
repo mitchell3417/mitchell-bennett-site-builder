@@ -7,22 +7,22 @@
       "uuidString" : "6E406498-B7E4-48BB-BB89-BD2E04D5446E"
     }
   ],
-  "creatorBuild" : "34576",
+  "creatorBuild" : "34592",
   "files" : {
-    "\/__engine__\/compiler.php" : {
+    "\/__src__\/compiler.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/__engine__\/compiler.php",
+      "oAP" : "\/__src__\/compiler.php",
       "oF" : 0
     },
-    "\/__engine__\/paths.php" : {
+    "\/__src__\/paths.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/__engine__\/paths.php",
+      "oAP" : "\/__src__\/paths.php",
       "oF" : 0
     },
     "\/_data\/authors.php" : {
@@ -202,6 +202,22 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/_pages\/resume.html",
+      "oF" : 0
+    },
+    "\/_pages\/robots.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_pages\/robots.html",
+      "oF" : 0
+    },
+    "\/_pages\/sitemap.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_pages\/sitemap.html",
       "oF" : 0
     },
     "\/_sass\/0-utils\/__utils.scss" : {
@@ -744,6 +760,14 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/_views\/blank.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_views\/blank.php",
+      "oF" : 0
+    },
     "\/_views\/default.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -760,14 +784,6 @@
       "oAP" : "\/_views\/home.php",
       "oF" : 0
     },
-    "\/_views\/no-header-no-footer.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_views\/no-header-no-footer.php",
-      "oF" : 0
-    },
     "\/_views\/projects-single.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -782,6 +798,22 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/_views\/projects.php",
+      "oF" : 0
+    },
+    "\/_views\/resume.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_views\/resume.php",
+      "oF" : 0
+    },
+    "\/_views\/sitemap.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_views\/sitemap.php",
       "oF" : 0
     },
     "\/.gitattributes" : {
@@ -812,6 +844,110 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/index.php",
+      "oF" : 0
+    },
+    "\/local_site\/about\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/local_site\/about\/index.html",
+      "oF" : 0
+    },
+    "\/local_site\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/local_site\/index.html",
+      "oF" : 0
+    },
+    "\/local_site\/projects\/AGB.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/local_site\/projects\/AGB.php",
+      "oF" : 0
+    },
+    "\/local_site\/projects\/crosspoint.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/local_site\/projects\/crosspoint.php",
+      "oF" : 0
+    },
+    "\/local_site\/projects\/embracing-a-simpler-life.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/local_site\/projects\/embracing-a-simpler-life.php",
+      "oF" : 0
+    },
+    "\/local_site\/projects\/fayette.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/local_site\/projects\/fayette.php",
+      "oF" : 0
+    },
+    "\/local_site\/projects\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/local_site\/projects\/index.html",
+      "oF" : 0
+    },
+    "\/local_site\/projects\/realtybrands.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/local_site\/projects\/realtybrands.php",
+      "oF" : 0
+    },
+    "\/local_site\/projects\/rekreate.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/local_site\/projects\/rekreate.php",
+      "oF" : 0
+    },
+    "\/local_site\/projects\/ukatsu.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/local_site\/projects\/ukatsu.php",
+      "oF" : 0
+    },
+    "\/local_site\/resume\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/local_site\/resume\/index.html",
+      "oF" : 0
+    },
+    "\/local_site\/robots.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/local_site\/robots.txt",
+      "oF" : 0
+    },
+    "\/local_site\/sitemap.xml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/local_site\/sitemap.xml",
       "oF" : 0
     },
     "\/site\/about\/index.html" : {
@@ -2617,12 +2753,28 @@
       "oAP" : "\/site\/index.html",
       "oF" : 0
     },
+    "\/site\/projects\/AGB.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/site\/projects\/AGB.php",
+      "oF" : 0
+    },
     "\/site\/projects\/AGB\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/site\/projects\/AGB\/index.html",
+      "oF" : 0
+    },
+    "\/site\/projects\/crosspoint.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/site\/projects\/crosspoint.php",
       "oF" : 0
     },
     "\/site\/projects\/crosspoint\/index.html" : {
@@ -2633,12 +2785,28 @@
       "oAP" : "\/site\/projects\/crosspoint\/index.html",
       "oF" : 0
     },
+    "\/site\/projects\/embracing-a-simpler-life.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/site\/projects\/embracing-a-simpler-life.php",
+      "oF" : 0
+    },
     "\/site\/projects\/embracing-a-simpler-life\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/site\/projects\/embracing-a-simpler-life\/index.html",
+      "oF" : 0
+    },
+    "\/site\/projects\/fayette.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/site\/projects\/fayette.php",
       "oF" : 0
     },
     "\/site\/projects\/fayette\/index.html" : {
@@ -2657,6 +2825,14 @@
       "oAP" : "\/site\/projects\/index.html",
       "oF" : 0
     },
+    "\/site\/projects\/realtybrands.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/site\/projects\/realtybrands.php",
+      "oF" : 0
+    },
     "\/site\/projects\/realtybrands\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -2665,12 +2841,28 @@
       "oAP" : "\/site\/projects\/realtybrands\/index.html",
       "oF" : 0
     },
+    "\/site\/projects\/rekreate.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/site\/projects\/rekreate.php",
+      "oF" : 0
+    },
     "\/site\/projects\/rekreate\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/site\/projects\/rekreate\/index.html",
+      "oF" : 0
+    },
+    "\/site\/projects\/ukatsu.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/site\/projects\/ukatsu.php",
       "oF" : 0
     },
     "\/site\/projects\/ukatsu\/index.html" : {
@@ -2687,6 +2879,22 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/site\/resume\/index.html",
+      "oF" : 0
+    },
+    "\/site\/robots.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/site\/robots.txt",
+      "oF" : 0
+    },
+    "\/site\/sitemap.xml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/site\/sitemap.xml",
       "oF" : 0
     }
   },
@@ -3201,10 +3409,6 @@
         "active" : 0,
         "optionString" : "{'before': true, 'after': true, 'overrides': {}}"
       },
-      "line-comment-position" : {
-        "active" : 0,
-        "optionString" : "{'position': 'above'}"
-      },
       "linebreak-style" : {
         "active" : 0,
         "optionString" : "'unix'"
@@ -3256,10 +3460,6 @@
       "max-statements-per-line" : {
         "active" : 0,
         "optionString" : "{'max': 1}"
-      },
-      "multiline-comment-style" : {
-        "active" : 0,
-        "optionString" : "'starred-block'"
       },
       "multiline-ternary" : {
         "active" : 0,
@@ -3402,7 +3602,8 @@
         "active" : 0
       },
       "no-extra-boolean-cast" : {
-        "active" : 1
+        "active" : 1,
+        "optionString" : "{'enforceForInnerExpressions': false}"
       },
       "no-extra-label" : {
         "active" : 0
@@ -3487,7 +3688,8 @@
         "optionString" : "{'ignore': [], 'ignoreArrayIndexes': true, 'ignoreDefaultValues': false, 'ignoreClassFieldInitialValues': false, 'enforceConst': false, 'detectObjects': false}"
       },
       "no-misleading-character-class" : {
-        "active" : 1
+        "active" : 1,
+        "optionString" : "{'allowEscape': false}"
       },
       "no-mixed-operators" : {
         "active" : 0,
@@ -3855,7 +4057,8 @@
         "active" : 0
       },
       "require-unicode-regexp" : {
-        "active" : 0
+        "active" : 0,
+        "optionString" : "{'requireFlag': 'u'}"
       },
       "require-yield" : {
         "active" : 1
@@ -4285,6 +4488,7 @@
     "tsImportHelpers" : 0,
     "tsIsolatedModules" : 0,
     "tsJSXFactory" : "React.createElement",
+    "tsJSXFragmentFactory" : "Fragment",
     "tsNoEmitHelpers" : 0,
     "tsNoFallthroughCasesInSwitch" : 0,
     "tsNoImplicitAny" : 0,

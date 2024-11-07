@@ -8,5 +8,5 @@ $data = array(
     'tags'          => array('Wordpress', 'Custom Theme', 'Web Development'),
     'order'         => 4,
     'background'    => '3',
-    'url'           => 'https://www.thecrosspoint.com/home/'
+    'url'           => 'https://www.thecrosspoint.com/'
 );

@@ -29,9 +29,9 @@
                     </div>
                     <div class="col col--12 site-images-container">
                         <div class="site-images">
-                            <img src="<?php images_dir( $vars['slug'] . '/' . $vars['slug'] . '-alt.jpg'); ?>" alt="Embracing a simpler life screenshot of blog page" class="site-image alt-image">
-                            <img src="<?php images_dir( $vars['slug'] . '/' . $vars['slug'] . '-main.jpg'); ?>" alt="Embracing a simpler life screenshot of home page" class="site-image main-image">
-                            <img src="<?php images_dir( $vars['slug'] . '/' . $vars['slug'] . '-mobile.jpg'); ?>" alt="Embracing a simpler life screenshot of mobile site" class="site-image mobile-image">
+                            <img src="<?php the_images_dir( $vars['slug'] . '/' . $vars['slug'] . '-alt.jpg'); ?>" alt="Embracing a simpler life screenshot of blog page" class="site-image alt-image">
+                            <img src="<?php the_images_dir( $vars['slug'] . '/' . $vars['slug'] . '-main.jpg'); ?>" alt="Embracing a simpler life screenshot of home page" class="site-image main-image">
+                            <img src="<?php the_images_dir( $vars['slug'] . '/' . $vars['slug'] . '-mobile.jpg'); ?>" alt="Embracing a simpler life screenshot of mobile site" class="site-image mobile-image">
                         </div>
                     </div>
                 </header>
@@ -41,7 +41,7 @@
             <div class="container content margin-top--xxl margin-bottom--xxl">
                 <?php echo $vars['description']; ?>
                 <figure class="wp-block-image size-large">
-                    <img src="<?php images_dir( $vars['slug'] . '/' . $vars['slug'] . '-main.jpg'); ?>" alt="Embracing a simpler life screenshot of home page">
+                    <img src="<?php the_images_dir( $vars['slug'] . '/' . $vars['slug'] . '-main.jpg'); ?>" alt="Embracing a simpler life screenshot of home page">
                 </figure>
             </div>
         </div>
