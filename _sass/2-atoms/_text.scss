@@ -16,6 +16,11 @@ body {
   text-shadow: none;
 }
 
+p, ol, ul {
+  @include font-sizes(18px, 20px, 20px, 20px);
+  line-height: 1.4;
+}
+
 /*
 *******************************************************************
 HORIZONTAL RULE STYLES
