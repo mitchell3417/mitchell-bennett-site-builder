@@ -1,23 +1,51 @@
 <?xml version="1.0"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://mitchellbennett.rocks/about</loc>
-    <lastmod>2024-10-04</lastmod>
+    <loc>https://mitchellbennett.rocks/about.php</loc>
+    <lastmod>2024-11-08</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mitchellbennett.rocks/</loc>
+    <loc>https://mitchellbennett.rocks/index.php</loc>
     <lastmod>2024-09-06</lastmod>
     <priority>1</priority>
   </url>
   <url>
-    <loc>https://mitchellbennett.rocks/projects</loc>
-    <lastmod>2024-11-07</lastmod>
+    <loc>https://mitchellbennett.rocks/projects.php</loc>
+    <lastmod>2024-11-08</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://mitchellbennett.rocks/resume</loc>
+    <loc>https://mitchellbennett.rocks/resume.php</loc>
     <lastmod>2024-09-06</lastmod>
     <priority>0</priority>
+  </url>
+  <url>
+    <loc>https://mitchellbennett.rocks/project/a-great-baby.php</loc>
+    <lastmod>2020-04-06</lastmod>
+  </url>
+  <url>
+    <loc>https://mitchellbennett.rocks/project/crosspoint.php</loc>
+    <lastmod>2020-06-30</lastmod>
+  </url>
+  <url>
+    <loc>https://mitchellbennett.rocks/project/embracing-a-simpler-life.php</loc>
+    <lastmod>2018-03-24</lastmod>
+  </url>
+  <url>
+    <loc>https://mitchellbennett.rocks/project/fayette.php</loc>
+    <lastmod>2019-11-17</lastmod>
+  </url>
+  <url>
+    <loc>https://mitchellbennett.rocks/project/realtybrands.php</loc>
+    <lastmod>2018-05-08</lastmod>
+  </url>
+  <url>
+    <loc>https://mitchellbennett.rocks/project/rekreate.php</loc>
+    <lastmod>2022-03-28</lastmod>
+  </url>
+  <url>
+    <loc>https://mitchellbennett.rocks/project/ukatsu.php</loc>
+    <lastmod>2018-12-06</lastmod>
   </url>
 </urlset>

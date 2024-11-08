@@ -33,7 +33,7 @@
                     </div>
                 </div>
             </div>
-            <div class="copyright text--center has-gray-600-color">
+            <div class="copyright text--center has-gray-800-color">
                 <p id="copyright"><small>Copyright &copy;&nbsp;<?php echo '2017-' . date('Y'); ?> Mitchell Bennett LLC. All rights reserved</small></p>
             </div>
         </footer>

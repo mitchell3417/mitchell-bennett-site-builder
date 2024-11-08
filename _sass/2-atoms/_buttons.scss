@@ -15,7 +15,7 @@ button, [data-portal-view] {
   border-radius: 5px;
   background: $brand-color-1;
   @include linear-gradient(135, $brand-color-1, $brand-color-5);
-  color: white(1);
+  color: $brand-color-1;
   text-align: center;
   text-decoration: none;
   transition: all 300ms;

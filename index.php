@@ -1,13 +1,14 @@
 <?php
 
 // Get some functions to make life easier
+include_once '__src__/helpers.php';
 include_once '__src__/compiler.php';
 include_once '__src__/paths.php';
 
 // Build all of the pages
 echo '<h2 style="margin-bottom: 0;">Pages</h2>';
 
-$pages_paths = get_all_files_from_directory('_pages', 'html');
+$pages_paths = get_all_files_from_directory('_pages', 'php');
 
 foreach ($pages_paths as $path) {
 	$env = 'production';
@@ -25,9 +26,10 @@ foreach ($pages_paths as $path) {
 // Build all of the single project pages
 echo '<h2 style="margin-bottom: 0;">Projects</h2>';
 
-$projects_paths = get_all_files_from_directory('_data/projects', 'php');
+$projects_paths = get_all_files_from_directory('_data/project', 'php');
 
 foreach ($projects_paths as $path) {
+	
 	$env = 'production';
 	$dir = build_a_project( $path );
 	

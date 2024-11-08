@@ -79,12 +79,10 @@ MOBILE MENU ICON
 .nav--icon--mobile {
   width: 35px;
   height: 30px;
-  margin: 0;
+  margin: 0 10px 8px 0;
   transform: rotate(0deg);
   transition: 0.5s ease-in-out;
   cursor: pointer;
-  margin-right: 10px;
-  margin-bottom: 8px;
 
   @include md {
     display: none;

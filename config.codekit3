@@ -17,6 +17,14 @@
       "oAP" : "\/__src__\/compiler.php",
       "oF" : 0
     },
+    "\/__src__\/helpers.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/__src__\/helpers.php",
+      "oF" : 0
+    },
     "\/__src__\/paths.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -33,60 +41,60 @@
       "oAP" : "\/_data\/authors.php",
       "oF" : 0
     },
-    "\/_data\/projects\/AGB.php" : {
+    "\/_data\/project\/a-great-baby.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/_data\/projects\/AGB.php",
+      "oAP" : "\/_data\/project\/a-great-baby.php",
       "oF" : 0
     },
-    "\/_data\/projects\/crosspoint.php" : {
+    "\/_data\/project\/crosspoint.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/_data\/projects\/crosspoint.php",
+      "oAP" : "\/_data\/project\/crosspoint.php",
       "oF" : 0
     },
-    "\/_data\/projects\/embracing-a-simpler-life.php" : {
+    "\/_data\/project\/embracing-a-simpler-life.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/_data\/projects\/embracing-a-simpler-life.php",
+      "oAP" : "\/_data\/project\/embracing-a-simpler-life.php",
       "oF" : 0
     },
-    "\/_data\/projects\/fayette.php" : {
+    "\/_data\/project\/fayette.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/_data\/projects\/fayette.php",
+      "oAP" : "\/_data\/project\/fayette.php",
       "oF" : 0
     },
-    "\/_data\/projects\/realtybrands.php" : {
+    "\/_data\/project\/realtybrands.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/_data\/projects\/realtybrands.php",
+      "oAP" : "\/_data\/project\/realtybrands.php",
       "oF" : 0
     },
-    "\/_data\/projects\/rekreate.php" : {
+    "\/_data\/project\/rekreate.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/_data\/projects\/rekreate.php",
+      "oAP" : "\/_data\/project\/rekreate.php",
       "oF" : 0
     },
-    "\/_data\/projects\/ukatsu.php" : {
+    "\/_data\/project\/ukatsu.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/_data\/projects\/ukatsu.php",
+      "oAP" : "\/_data\/project\/ukatsu.php",
       "oF" : 0
     },
     "\/_includes\/footer-blank.php" : {
@@ -167,57 +175,65 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/_js\/base-min.js",
-      "oF" : 0,
+      "oAP" : "\/site\/assets\/js\/main.js",
+      "oF" : 2,
       "sC" : 3,
       "tS" : 0
     },
-    "\/_pages\/about.html" : {
+    "\/_pages\/404.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/_pages\/about.html",
+      "oAP" : "\/_pages\/404.php",
       "oF" : 0
     },
-    "\/_pages\/index.html" : {
+    "\/_pages\/about.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/_pages\/index.html",
+      "oAP" : "\/_pages\/about.php",
       "oF" : 0
     },
-    "\/_pages\/projects.html" : {
+    "\/_pages\/index.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/_pages\/projects.html",
+      "oAP" : "\/_pages\/index.php",
       "oF" : 0
     },
-    "\/_pages\/resume.html" : {
+    "\/_pages\/projects.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/_pages\/resume.html",
+      "oAP" : "\/_pages\/projects.php",
       "oF" : 0
     },
-    "\/_pages\/robots.html" : {
+    "\/_pages\/resume.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/_pages\/robots.html",
+      "oAP" : "\/_pages\/resume.php",
       "oF" : 0
     },
-    "\/_pages\/sitemap.html" : {
+    "\/_pages\/robots.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/_pages\/sitemap.html",
+      "oAP" : "\/_pages\/robots.php",
+      "oF" : 0
+    },
+    "\/_pages\/sitemap.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_pages\/sitemap.php",
       "oF" : 0
     },
     "\/_sass\/0-utils\/__utils.scss" : {
@@ -470,21 +486,6 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/_sass\/2-atoms\/_media.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/_sass\/2-atoms\/_paragraph.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/_sass\/2-atoms\/_paragraph.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -776,12 +777,12 @@
       "oAP" : "\/_views\/default.php",
       "oF" : 0
     },
-    "\/_views\/home.php" : {
+    "\/_views\/no-header-footer.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/_views\/home.php",
+      "oAP" : "\/_views\/no-header-footer.php",
       "oF" : 0
     },
     "\/_views\/projects-single.php" : {
@@ -790,30 +791,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/_views\/projects-single.php",
-      "oF" : 0
-    },
-    "\/_views\/projects.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_views\/projects.php",
-      "oF" : 0
-    },
-    "\/_views\/resume.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_views\/resume.php",
-      "oF" : 0
-    },
-    "\/_views\/sitemap.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/_views\/sitemap.php",
       "oF" : 0
     },
     "\/.gitattributes" : {
@@ -846,12 +823,20 @@
       "oAP" : "\/index.php",
       "oF" : 0
     },
-    "\/local_site\/about\/index.html" : {
+    "\/local_site\/404.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/local_site\/about\/index.html",
+      "oAP" : "\/local_site\/404.html",
+      "oF" : 0
+    },
+    "\/local_site\/about.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/local_site\/about.html",
       "oF" : 0
     },
     "\/local_site\/index.html" : {
@@ -862,76 +847,76 @@
       "oAP" : "\/local_site\/index.html",
       "oF" : 0
     },
-    "\/local_site\/projects\/AGB.php" : {
+    "\/local_site\/project\/a-great-baby.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/local_site\/projects\/AGB.php",
+      "oAP" : "\/local_site\/project\/a-great-baby.html",
       "oF" : 0
     },
-    "\/local_site\/projects\/crosspoint.php" : {
+    "\/local_site\/project\/crosspoint.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/local_site\/projects\/crosspoint.php",
+      "oAP" : "\/local_site\/project\/crosspoint.html",
       "oF" : 0
     },
-    "\/local_site\/projects\/embracing-a-simpler-life.php" : {
+    "\/local_site\/project\/embracing-a-simpler-life.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/local_site\/projects\/embracing-a-simpler-life.php",
+      "oAP" : "\/local_site\/project\/embracing-a-simpler-life.html",
       "oF" : 0
     },
-    "\/local_site\/projects\/fayette.php" : {
+    "\/local_site\/project\/fayette.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/local_site\/projects\/fayette.php",
+      "oAP" : "\/local_site\/project\/fayette.html",
       "oF" : 0
     },
-    "\/local_site\/projects\/index.html" : {
+    "\/local_site\/project\/realtybrands.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/local_site\/projects\/index.html",
+      "oAP" : "\/local_site\/project\/realtybrands.html",
       "oF" : 0
     },
-    "\/local_site\/projects\/realtybrands.php" : {
+    "\/local_site\/project\/rekreate.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/local_site\/projects\/realtybrands.php",
+      "oAP" : "\/local_site\/project\/rekreate.html",
       "oF" : 0
     },
-    "\/local_site\/projects\/rekreate.php" : {
+    "\/local_site\/project\/ukatsu.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/local_site\/projects\/rekreate.php",
+      "oAP" : "\/local_site\/project\/ukatsu.html",
       "oF" : 0
     },
-    "\/local_site\/projects\/ukatsu.php" : {
+    "\/local_site\/projects.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/local_site\/projects\/ukatsu.php",
+      "oAP" : "\/local_site\/projects.html",
       "oF" : 0
     },
-    "\/local_site\/resume\/index.html" : {
+    "\/local_site\/resume.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/local_site\/resume\/index.html",
+      "oAP" : "\/local_site\/resume.html",
       "oF" : 0
     },
     "\/local_site\/robots.txt" : {
@@ -950,12 +935,20 @@
       "oAP" : "\/local_site\/sitemap.xml",
       "oF" : 0
     },
-    "\/site\/about\/index.html" : {
+    "\/site\/404.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/site\/about\/index.html",
+      "oAP" : "\/site\/404.html",
+      "oF" : 0
+    },
+    "\/site\/about.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/site\/about.html",
       "oF" : 0
     },
     "\/site\/assets\/css\/style.css" : {
@@ -997,8 +990,8 @@
       "oA" : 0,
       "oAP" : "\/site\/assets\/favicons\/android-icon-48x48.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 90,
@@ -1010,8 +1003,8 @@
       "oA" : 0,
       "oAP" : "\/site\/assets\/favicons\/android-icon-72x72.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 90,
@@ -1023,8 +1016,8 @@
       "oA" : 0,
       "oAP" : "\/site\/assets\/favicons\/android-icon-96x96.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 90,
@@ -1162,12 +1155,12 @@
     },
     "\/site\/assets\/favicons\/apple-icon-180x180.png" : {
       "ft" : 32768,
-      "iS" : 14345,
+      "iS" : 3140,
       "oA" : 0,
       "oAP" : "\/site\/assets\/favicons\/apple-icon-180x180.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 90,
@@ -1175,12 +1168,12 @@
     },
     "\/site\/assets\/favicons\/apple-icon-precomposed.png" : {
       "ft" : 32768,
-      "iS" : 15027,
+      "iS" : 3013,
       "oA" : 0,
       "oAP" : "\/site\/assets\/favicons\/apple-icon-precomposed.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 90,
@@ -1666,12 +1659,12 @@
       "oAP" : "\/site\/assets\/fonts\/MinionPro-SemiboldIt.woff2",
       "oF" : 0
     },
-    "\/site\/assets\/images\/AGB\/AGB-alt-150x150.jpg" : {
+    "\/site\/assets\/images\/a-great-baby\/a-great-baby-alt-150x150.jpg" : {
       "ft" : 16384,
       "iS" : 4075,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/site\/assets\/images\/AGB\/AGB-alt-150x150.jpg",
+      "oAP" : "\/site\/assets\/images\/a-great-baby\/a-great-baby-alt-150x150.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1679,12 +1672,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/site\/assets\/images\/AGB\/AGB-alt-300x225.jpg" : {
+    "\/site\/assets\/images\/a-great-baby\/a-great-baby-alt-300x225.jpg" : {
       "ft" : 16384,
       "iS" : 9412,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/site\/assets\/images\/AGB\/AGB-alt-300x225.jpg",
+      "oAP" : "\/site\/assets\/images\/a-great-baby\/a-great-baby-alt-300x225.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1692,12 +1685,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/site\/assets\/images\/AGB\/AGB-alt-768x576.jpg" : {
+    "\/site\/assets\/images\/a-great-baby\/a-great-baby-alt-768x576.jpg" : {
       "ft" : 16384,
       "iS" : 43413,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/site\/assets\/images\/AGB\/AGB-alt-768x576.jpg",
+      "oAP" : "\/site\/assets\/images\/a-great-baby\/a-great-baby-alt-768x576.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1705,12 +1698,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/site\/assets\/images\/AGB\/AGB-alt-1024x768.jpg" : {
+    "\/site\/assets\/images\/a-great-baby\/a-great-baby-alt-1024x768.jpg" : {
       "ft" : 16384,
       "iS" : 67438,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/site\/assets\/images\/AGB\/AGB-alt-1024x768.jpg",
+      "oAP" : "\/site\/assets\/images\/a-great-baby\/a-great-baby-alt-1024x768.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1718,12 +1711,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/site\/assets\/images\/AGB\/AGB-alt.jpg" : {
+    "\/site\/assets\/images\/a-great-baby\/a-great-baby-alt.jpg" : {
       "ft" : 16384,
       "iS" : 66610,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/site\/assets\/images\/AGB\/AGB-alt.jpg",
+      "oAP" : "\/site\/assets\/images\/a-great-baby\/a-great-baby-alt.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1731,12 +1724,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/site\/assets\/images\/AGB\/AGB-main-150x150.jpg" : {
+    "\/site\/assets\/images\/a-great-baby\/a-great-baby-main-150x150.jpg" : {
       "ft" : 16384,
       "iS" : 5808,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/site\/assets\/images\/AGB\/AGB-main-150x150.jpg",
+      "oAP" : "\/site\/assets\/images\/a-great-baby\/a-great-baby-main-150x150.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1744,12 +1737,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/site\/assets\/images\/AGB\/AGB-main-300x225.jpg" : {
+    "\/site\/assets\/images\/a-great-baby\/a-great-baby-main-300x225.jpg" : {
       "ft" : 16384,
       "iS" : 12735,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/site\/assets\/images\/AGB\/AGB-main-300x225.jpg",
+      "oAP" : "\/site\/assets\/images\/a-great-baby\/a-great-baby-main-300x225.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1757,12 +1750,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/site\/assets\/images\/AGB\/AGB-main-768x576.jpg" : {
+    "\/site\/assets\/images\/a-great-baby\/a-great-baby-main-768x576.jpg" : {
       "ft" : 16384,
       "iS" : 52422,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/site\/assets\/images\/AGB\/AGB-main-768x576.jpg",
+      "oAP" : "\/site\/assets\/images\/a-great-baby\/a-great-baby-main-768x576.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1770,12 +1763,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/site\/assets\/images\/AGB\/AGB-main-1024x768.jpg" : {
+    "\/site\/assets\/images\/a-great-baby\/a-great-baby-main-1024x768.jpg" : {
       "ft" : 16384,
-      "iS" : 76210,
+      "iS" : 30000,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/site\/assets\/images\/AGB\/AGB-main-1024x768.jpg",
+      "oAP" : "\/site\/assets\/images\/a-great-baby\/a-great-baby-main-1024x768.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1783,12 +1776,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/site\/assets\/images\/AGB\/AGB-main.jpg" : {
+    "\/site\/assets\/images\/a-great-baby\/a-great-baby-main.jpg" : {
       "ft" : 16384,
-      "iS" : 67497,
+      "iS" : 30000,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/site\/assets\/images\/AGB\/AGB-main.jpg",
+      "oAP" : "\/site\/assets\/images\/a-great-baby\/a-great-baby-main.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1796,12 +1789,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/site\/assets\/images\/AGB\/AGB-mobile-150x150.jpg" : {
+    "\/site\/assets\/images\/a-great-baby\/a-great-baby-mobile-150x150.jpg" : {
       "ft" : 16384,
       "iS" : 4977,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/site\/assets\/images\/AGB\/AGB-mobile-150x150.jpg",
+      "oAP" : "\/site\/assets\/images\/a-great-baby\/a-great-baby-mobile-150x150.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1809,12 +1802,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/site\/assets\/images\/AGB\/AGB-mobile-169x300.jpg" : {
+    "\/site\/assets\/images\/a-great-baby\/a-great-baby-mobile-169x300.jpg" : {
       "ft" : 16384,
       "iS" : 7711,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/site\/assets\/images\/AGB\/AGB-mobile-169x300.jpg",
+      "oAP" : "\/site\/assets\/images\/a-great-baby\/a-great-baby-mobile-169x300.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1822,12 +1815,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/site\/assets\/images\/AGB\/AGB-mobile.jpg" : {
+    "\/site\/assets\/images\/a-great-baby\/a-great-baby-mobile.jpg" : {
       "ft" : 16384,
       "iS" : 16132,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/site\/assets\/images\/AGB\/AGB-mobile.jpg",
+      "oAP" : "\/site\/assets\/images\/a-great-baby\/a-great-baby-mobile.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1889,7 +1882,7 @@
     },
     "\/site\/assets\/images\/crosspoint\/crosspoint-alt.jpg" : {
       "ft" : 16384,
-      "iS" : 30355,
+      "iS" : 30000,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/site\/assets\/images\/crosspoint\/crosspoint-alt.jpg",
@@ -1954,7 +1947,7 @@
     },
     "\/site\/assets\/images\/crosspoint\/crosspoint-main.jpg" : {
       "ft" : 16384,
-      "iS" : 63477,
+      "iS" : 60000,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/site\/assets\/images\/crosspoint\/crosspoint-main.jpg",
@@ -2032,33 +2025,33 @@
     },
     "\/site\/assets\/images\/embracing-a-simpler-life\/embracing-a-simpler-life-main-768x576.jpg" : {
       "ft" : 16384,
-      "iS" : 72856,
+      "iS" : 30000,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/site\/assets\/images\/embracing-a-simpler-life\/embracing-a-simpler-life-main-768x576.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
     "\/site\/assets\/images\/embracing-a-simpler-life\/embracing-a-simpler-life-main-1024x768.jpg" : {
       "ft" : 16384,
-      "iS" : 113095,
+      "iS" : 30000,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/site\/assets\/images\/embracing-a-simpler-life\/embracing-a-simpler-life-main-1024x768.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
     "\/site\/assets\/images\/embracing-a-simpler-life\/embracing-a-simpler-life-main.jpg" : {
       "ft" : 16384,
-      "iS" : 103207,
+      "iS" : 90000,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/site\/assets\/images\/embracing-a-simpler-life\/embracing-a-simpler-life-main.jpg",
@@ -2175,7 +2168,7 @@
     },
     "\/site\/assets\/images\/fayette\/fayette-main-768x576.jpg" : {
       "ft" : 16384,
-      "iS" : 66288,
+      "iS" : 30000,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/site\/assets\/images\/fayette\/fayette-main-768x576.jpg",
@@ -2188,7 +2181,7 @@
     },
     "\/site\/assets\/images\/fayette\/fayette-main-1024x768.jpg" : {
       "ft" : 16384,
-      "iS" : 101669,
+      "iS" : 30000,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/site\/assets\/images\/fayette\/fayette-main-1024x768.jpg",
@@ -2201,7 +2194,7 @@
     },
     "\/site\/assets\/images\/fayette\/fayette-main.jpg" : {
       "ft" : 16384,
-      "iS" : 91943,
+      "iS" : 30000,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/site\/assets\/images\/fayette\/fayette-main.jpg",
@@ -2299,7 +2292,7 @@
     },
     "\/site\/assets\/images\/realtybrands\/realtybrands-alt-300x225.jpg" : {
       "ft" : 16384,
-      "iS" : 11018,
+      "iS" : 11010,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/site\/assets\/images\/realtybrands\/realtybrands-alt-300x225.jpg",
@@ -2338,7 +2331,7 @@
     },
     "\/site\/assets\/images\/realtybrands\/realtybrands-alt.jpg" : {
       "ft" : 16384,
-      "iS" : 61890,
+      "iS" : 60000,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/site\/assets\/images\/realtybrands\/realtybrands-alt.jpg",
@@ -2377,7 +2370,7 @@
     },
     "\/site\/assets\/images\/realtybrands\/realtybrands-main-1024x768.jpg" : {
       "ft" : 16384,
-      "iS" : 65411,
+      "iS" : 60000,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/site\/assets\/images\/realtybrands\/realtybrands-main-1024x768.jpg",
@@ -2461,14 +2454,14 @@
       "oAP" : "\/site\/assets\/images\/rekreate\/rekreate-alt-300x225.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
     "\/site\/assets\/images\/rekreate\/rekreate-alt-768x576.jpg" : {
       "ft" : 16384,
-      "iS" : 41066,
+      "iS" : 30000,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/site\/assets\/images\/rekreate\/rekreate-alt-768x576.jpg",
@@ -2481,7 +2474,7 @@
     },
     "\/site\/assets\/images\/rekreate\/rekreate-alt-1024x768.jpg" : {
       "ft" : 16384,
-      "iS" : 62268,
+      "iS" : 30000,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/site\/assets\/images\/rekreate\/rekreate-alt-1024x768.jpg",
@@ -2526,7 +2519,7 @@
       "oAP" : "\/site\/assets\/images\/rekreate\/rekreate-main-300x225.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2617,7 +2610,7 @@
       "oAP" : "\/site\/assets\/images\/ukatsu\/ukatsu-alt-300x225.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2630,14 +2623,14 @@
       "oAP" : "\/site\/assets\/images\/ukatsu\/ukatsu-alt-768x576.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
     "\/site\/assets\/images\/ukatsu\/ukatsu-alt-1024x768.jpg" : {
       "ft" : 16384,
-      "iS" : 81797,
+      "iS" : 60000,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/site\/assets\/images\/ukatsu\/ukatsu-alt-1024x768.jpg",
@@ -2682,7 +2675,7 @@
       "oAP" : "\/site\/assets\/images\/ukatsu\/ukatsu-main-768x576.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2695,7 +2688,7 @@
       "oAP" : "\/site\/assets\/images\/ukatsu\/ukatsu-main-1024x768.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2721,7 +2714,7 @@
       "oAP" : "\/site\/assets\/images\/ukatsu\/ukatsu-mobile.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2753,132 +2746,76 @@
       "oAP" : "\/site\/index.html",
       "oF" : 0
     },
-    "\/site\/projects\/AGB.php" : {
+    "\/site\/project\/a-great-baby.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/site\/projects\/AGB.php",
+      "oAP" : "\/site\/project\/a-great-baby.html",
       "oF" : 0
     },
-    "\/site\/projects\/AGB\/index.html" : {
+    "\/site\/project\/crosspoint.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/site\/projects\/AGB\/index.html",
+      "oAP" : "\/site\/project\/crosspoint.html",
       "oF" : 0
     },
-    "\/site\/projects\/crosspoint.php" : {
+    "\/site\/project\/embracing-a-simpler-life.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/site\/projects\/crosspoint.php",
+      "oAP" : "\/site\/project\/embracing-a-simpler-life.html",
       "oF" : 0
     },
-    "\/site\/projects\/crosspoint\/index.html" : {
+    "\/site\/project\/fayette.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/site\/projects\/crosspoint\/index.html",
+      "oAP" : "\/site\/project\/fayette.html",
       "oF" : 0
     },
-    "\/site\/projects\/embracing-a-simpler-life.php" : {
+    "\/site\/project\/realtybrands.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/site\/projects\/embracing-a-simpler-life.php",
+      "oAP" : "\/site\/project\/realtybrands.html",
       "oF" : 0
     },
-    "\/site\/projects\/embracing-a-simpler-life\/index.html" : {
+    "\/site\/project\/rekreate.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/site\/projects\/embracing-a-simpler-life\/index.html",
+      "oAP" : "\/site\/project\/rekreate.html",
       "oF" : 0
     },
-    "\/site\/projects\/fayette.php" : {
+    "\/site\/project\/ukatsu.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/site\/projects\/fayette.php",
+      "oAP" : "\/site\/project\/ukatsu.html",
       "oF" : 0
     },
-    "\/site\/projects\/fayette\/index.html" : {
+    "\/site\/projects.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/site\/projects\/fayette\/index.html",
+      "oAP" : "\/site\/projects.html",
       "oF" : 0
     },
-    "\/site\/projects\/index.html" : {
+    "\/site\/resume.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/site\/projects\/index.html",
-      "oF" : 0
-    },
-    "\/site\/projects\/realtybrands.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/site\/projects\/realtybrands.php",
-      "oF" : 0
-    },
-    "\/site\/projects\/realtybrands\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/site\/projects\/realtybrands\/index.html",
-      "oF" : 0
-    },
-    "\/site\/projects\/rekreate.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/site\/projects\/rekreate.php",
-      "oF" : 0
-    },
-    "\/site\/projects\/rekreate\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/site\/projects\/rekreate\/index.html",
-      "oF" : 0
-    },
-    "\/site\/projects\/ukatsu.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/site\/projects\/ukatsu.php",
-      "oF" : 0
-    },
-    "\/site\/projects\/ukatsu\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/site\/projects\/ukatsu\/index.html",
-      "oF" : 0
-    },
-    "\/site\/resume\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/site\/resume\/index.html",
+      "oAP" : "\/site\/resume.html",
       "oF" : 0
     },
     "\/site\/robots.txt" : {

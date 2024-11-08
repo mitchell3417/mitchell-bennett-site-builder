@@ -1,10 +1,8 @@
 /* Mobile Navigation */
 
-var masthead, menuToggle, siteNavigation, siteHeaderMenu;
+var menuToggle, siteNavigation;
 
-masthead         = document.getElementById( 'masthead' );
 menuToggle       = document.getElementById( 'menu-toggle' );
-siteHeaderMenu   = document.getElementById( 'site-header-menu' );
 siteNavigation   = document.getElementById( 'site-navigation' );
 
 // Enable menuToggle.
@@ -17,16 +15,17 @@ function bindMenuToggle() {
   }
 
   // Add an initial values for the attribute.
-  menuToggle.setAttribute( 'aria-expanded', 'false' );
-  siteNavigation.setAttribute( 'aria-expanded', 'false' );
+    if (window.innerWidth <= 768) {
+      siteNavigation.setAttribute( 'aria-expanded', 'false' );
+    }
 
   menuToggle.addEventListener( 'click', function() {
     menuToggle.classList.toggle( 'toggled-on' );
     siteNavigation.classList.toggle( 'toggled-on' );
 
     // jscs:disable
-    menuToggle.setAttribute( 'aria-expanded', siteNavigation.getAttribute( 'aria-expanded' ) === 'false' ? 'true' : 'false' );
     siteNavigation.setAttribute( 'aria-expanded', siteNavigation.getAttribute( 'aria-expanded' ) === 'false' ? 'true' : 'false' );
+
     // jscs:enable
   } );
 }

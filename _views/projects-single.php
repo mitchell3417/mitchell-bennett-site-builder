@@ -1,5 +1,3 @@
-<?php include '_includes/head.php'; ?>
-
 <?php include '_includes/header.php'; ?>
 
 <main>
@@ -11,12 +9,14 @@
                         <h1 class="text--uppercase letter-spacing--2 font--normal margin-top--none margin-bottom--none"><?php echo $vars['name']; ?></h1>
                     </div>
                     <div class="col col--12 col__sm--3 button-container">
-                        <div>
-                            <a href="<?php echo $vars['url']; ?>" class="btn btn--outline btn--small" target="_blank">Visit Website</a>
-                        </div>
+						<?php if ( isset($vars['url'] ) ) : ?>
+                            <div>
+                                <a href="<?php echo $vars['url']; ?>" class="btn btn--outline btn--small" target="_blank">Visit Website</a>
+                            </div>
+                        <?php endif; ?>
                     </div>
                     <div class="col col--12">
-                        <p class="margin-top--none sans opacity--50"><small><?php
+                        <p class="margin-top--none sans"><small><?php
                             $count = count($vars['tags']);
                             foreach( $vars['tags'] as $key=>$tag ) {
                                 if ($count - 1 != $key) {
