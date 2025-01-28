@@ -12,9 +12,9 @@
     </div>
     <div class="container">
         <main class="">
-            <h1 class="size--h2">I help companies and designers make outstanding websites a reality.</h1>
-            <p>Mitchell Bennett is a front and back-end web developer who works with companies of all sizes to build websites.</p>
-            <a href="#contact">Let's Start<span>a new project together</span></a>
+            <h1 class="size--h2">I help companies make outstanding websites a reality.</h1>
+            <p>Mitchell Bennett is a front and back-end web developer who works with companies of all sizes to build websites WordPress, Shopify, and React websites.</p>
+            <a href="#contact">Let's Start <span>a new project together</span></a>
         </main>
     </div>
 </section>

@@ -54,7 +54,12 @@ function get_view_html( $post_path, $variables = array( 'local' => false ) ): st
     
     include "_views/$view";
 
-    return ob_get_clean();
+   	$html = ob_get_clean();
+	   
+   // Get rid of all html comments in the $html string
+   $html = preg_replace('/<!--(.|\s)*?-->/', '', $html);
+	   
+    return $html;
 }
 
 
@@ -96,13 +101,15 @@ function build_a_project( $path, $site_path = 'site' ): string {
 	
 	include "_views/projects-single.php";
 	
-	$txt = ob_get_clean();
+	$html = ob_get_clean();
+	
+	$html = preg_replace('/<!--(.|\s)*?-->/', '', $html);
 	
 	if ( !is_dir(dirname($dir)) ) {
 		mkdir(dirname($dir), 0755, true);
 	}
 	
-	file_put_contents($dir, $txt);
+	file_put_contents($dir, $html);
 	
 	return $dir;
 }

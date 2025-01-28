@@ -7,7 +7,7 @@
                             <div class="form-header">
                                 <h3>Let's Work Together</h3>
                                 <p>Have a project you'd like to discuss? Let's chat.</p>
-                                <p>Email me at <strong>hi(at)mitchellbennett.rocks</strong></p>
+                                <p>Email me at <strong>hi{at}mitchellbennett.rocks</strong></p>
                             </div>
 <!--                            <div class="form-body">-->
 <!--                                <div class="form-field">-->

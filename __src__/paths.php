@@ -38,11 +38,15 @@ function the_path( $path = '' ): void {
 	if ( ! str_starts_with( $path, '/' ) ) {
 		$path = '/' . $path;
 	} else {
-		if ( strlen( $path ) === 1 && $env === 'local' ) $path = '';
+		if ( strlen( $path ) === 1 && $env === 'local' ) $path = '/index/';
 	}
 	
 	if ( $env === 'local' ) {
-		echo get_local_root_path() . '/local_site' . $path . '/index.html';
+		// remove / at end of the string
+		if ( substr( $path, -1 ) === '/' ) {
+			$path = substr( $path, 0, -1 );
+		}
+		echo get_local_root_path() . '/local_site' . $path . '.html';
 	} else {
 		echo $path;
 	}
