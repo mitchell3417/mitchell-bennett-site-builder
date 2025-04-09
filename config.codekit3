@@ -7,7 +7,7 @@
       "uuidString" : "6E406498-B7E4-48BB-BB89-BD2E04D5446E"
     }
   ],
-  "creatorBuild" : "34680",
+  "creatorBuild" : "34689",
   "files" : {
     "\/__src__\/compiler.php" : {
       "cB" : 0,
@@ -3074,8 +3074,6 @@
     "buildFolderActive" : 0,
     "buildFolderName" : "build",
     "cleanBuild" : 1,
-    "cssoForceMediaMerge" : 0,
-    "cssoRestructure" : 1,
     "environmentVariableEntries" : [
       "NODE_ENV:::production"
     ],
