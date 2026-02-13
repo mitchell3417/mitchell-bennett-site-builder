@@ -95,13 +95,23 @@
             <div class="col col--12 col__md--9">
                 <div class="site-images">
                     <a href="<?php the_path( 'project/embracing-a-simpler-life' ); ?>">
-                        <img src="<?php the_assets_dir( '/images/embracing-a-simpler-life/embracing-a-simpler-life-alt.jpg' ); ?>" alt="Embracing a simpler life screenshot of blog page by Lake of the Ozarks author Katie Bennett" class="site-image alt-image">
+                        <picture>
+                            <source type="image/webp" srcset="<?php the_assets_dir( '/images/embracing-a-simpler-life/embracing-a-simpler-life-alt.webp' ); ?>">
+                            <img src="<?php the_assets_dir( '/images/embracing-a-simpler-life/embracing-a-simpler-life-alt.jpg' ); ?>" loading="lazy" decoding="async" alt="Embracing a simpler life screenshot of blog page by Lake of the Ozarks author Katie Bennett" class="site-image alt-image">
+                        </picture>
                     </a>
                     <a href="<?php the_path( 'project/embracing-a-simpler-life' ); ?>">
-                        <img src="<?php the_assets_dir( '/images/embracing-a-simpler-life/embracing-a-simpler-life-main-1024x768.jpg' ); ?>" srcset="<?php the_assets_dir( '/images/embracing-a-simpler-life/embracing-a-simpler-life-main-300x225.jpg' ); ?> 300w, <?php the_assets_dir( '/images/embracing-a-simpler-life/embracing-a-simpler-life-main-768x576.jpg' ); ?> 768w, <?php the_assets_dir( '/images/embracing-a-simpler-life/embracing-a-simpler-life-main-1024x768.jpg' ); ?> 1024w" sizes="(max-width: 350px) 225px, (max-width: 1500px) 576px, 768px" alt="Screenshot of Embracing a simpler life home page by Lake of the Ozarks author Katie Bennett" class="site-image main-image">
+                        <picture>
+                            <source type="image/webp" srcset="<?php the_project_image_srcset( 'embracing-a-simpler-life', 'main', 'webp' ); ?>" sizes="(max-width: 350px) 225px, (max-width: 1500px) 576px, 768px">
+                            <source type="image/jpeg" srcset="<?php the_project_image_srcset( 'embracing-a-simpler-life', 'main' ); ?>" sizes="(max-width: 350px) 225px, (max-width: 1500px) 576px, 768px">
+                            <img src="<?php the_assets_dir( '/images/embracing-a-simpler-life/embracing-a-simpler-life-main-1024x768.jpg' ); ?>" loading="lazy" decoding="async" alt="Screenshot of Embracing a simpler life home page by Lake of the Ozarks author Katie Bennett" class="site-image main-image">
+                        </picture>
                     </a>
                     <a href="<?php the_path( 'project/embracing-a-simpler-life' ); ?>">
-                        <img src="<?php the_assets_dir( '/images/embracing-a-simpler-life/embracing-a-simpler-life-mobile.jpg' ); ?>" alt="Embracing a simpler life screenshot of mobile page by Lake of the Ozarks author Katie Bennett" class="site-image mobile-image">
+                        <picture>
+                            <source type="image/webp" srcset="<?php the_assets_dir( '/images/embracing-a-simpler-life/embracing-a-simpler-life-mobile.webp' ); ?>">
+                            <img src="<?php the_assets_dir( '/images/embracing-a-simpler-life/embracing-a-simpler-life-mobile.jpg' ); ?>" loading="lazy" decoding="async" alt="Embracing a simpler life screenshot of mobile page by Lake of the Ozarks author Katie Bennett" class="site-image mobile-image">
+                        </picture>
                     </a>
                 </div>
             </div>

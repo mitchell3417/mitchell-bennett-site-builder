@@ -46,16 +46,35 @@ function the_images_dir( $dir = '' ): void {
 	echo get_images_dir( $dir );
 }
 
-function get_project_image_srcset( string $slug, string $variant ): string {
+function get_images_webp_dir( string $dir = '' ): string {
+	$webp_path = preg_replace( '/\.(jpe?g|png)$/i', '.webp', $dir );
+	return get_images_dir( $webp_path );
+}
+
+function the_images_webp_dir( string $dir = '' ): void {
+	echo get_images_webp_dir( $dir );
+}
+
+function get_project_image_srcset( string $slug, string $variant, string $extension = 'jpg' ): string {
 	static $width_cache = array();
-	$suffixes = array(
-		'-150x150.jpg',
-		'-169x300.jpg',
-		'-300x225.jpg',
-		'-768x576.jpg',
-		'-1024x768.jpg',
-		'.jpg',
-	);
+	$extension = ( strtolower( $extension ) === 'webp' ) ? 'webp' : 'jpg';
+	$suffixes = ( $extension === 'webp' )
+		? array(
+			'-150x150.webp',
+			'-169x300.webp',
+			'-300x225.webp',
+			'-768x576.webp',
+			'-1024x768.webp',
+			'.webp',
+		)
+		: array(
+			'-150x150.jpg',
+			'-169x300.jpg',
+			'-300x225.jpg',
+			'-768x576.jpg',
+			'-1024x768.jpg',
+			'.jpg',
+		);
 	$entries = array();
 	$seen_widths = array();
 
@@ -84,8 +103,8 @@ function get_project_image_srcset( string $slug, string $variant ): string {
 	return implode( ', ', $entries );
 }
 
-function the_project_image_srcset( string $slug, string $variant ): void {
-	echo get_project_image_srcset( $slug, $variant );
+function the_project_image_srcset( string $slug, string $variant, string $extension = 'jpg' ): void {
+	echo get_project_image_srcset( $slug, $variant, $extension );
 }
 
 function the_fav_dir( $dir = '' ): void {

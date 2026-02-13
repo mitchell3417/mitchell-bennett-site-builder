@@ -51,9 +51,27 @@
                     </div>
                     <div class="col col--12 site-images-container">
                         <div class="site-images">
-                            <a href="<?php the_path( '/project/' . $project['slug'] ); ?>"><img src="<?php the_images_dir( $project['slug'] . '/' . $project['slug'] . '-alt.jpg'); ?>" alt="<?php echo $project['name']; ?> screenshot of blog page" class="site-image alt-image"></a>
-                            <a href="<?php the_path( '/project/' . $project['slug'] ); ?>"><img src="<?php the_images_dir( $project['slug'] . '/' . $project['slug'] . '-main.jpg'); ?>" srcset="<?php the_images_dir( $project['slug'] . '/' . $project['slug'] . '-main-300x225.jpg 300w'); ?>, <?php the_images_dir( $project['slug'] . '/' . $project['slug'] . '-main-768x576.jpg 768w'); ?>, <?php the_images_dir( $project['slug'] . '/' . $project['slug'] . '-main-1024x768.jpg 1024w'); ?>, <?php the_images_dir( $project['slug'] . '/' . $project['slug'] . '-main.jpg'); ?> 1200w" sizes="(max-width: 350px) 300px, (max-width: 800px) 768px, 1200px" alt="<?php echo $project['name']; ?> screenshot of home page" class="site-image main-image"></a>
-                            <a href="<?php the_path( '/project/' . $project['slug'] ); ?>"><img src="<?php the_images_dir( $project['slug'] . '/' . $project['slug'] . '-mobile.jpg'); ?>" alt="<?php echo $project['name']; ?> screenshot of mobile page" class="site-image mobile-image"></a>
+                            <a href="<?php the_path( '/project/' . $project['slug'] ); ?>">
+                                <picture>
+                                    <source type="image/webp" srcset="<?php the_project_image_srcset( $project['slug'], 'alt', 'webp' ); ?>" sizes="(max-width: 879px) 28vw, 284px">
+                                    <source type="image/jpeg" srcset="<?php the_project_image_srcset( $project['slug'], 'alt' ); ?>" sizes="(max-width: 879px) 28vw, 284px">
+                                    <img src="<?php the_images_dir( $project['slug'] . '/' . $project['slug'] . '-alt.jpg'); ?>" loading="lazy" decoding="async" alt="<?php echo $project['name']; ?> screenshot of blog page" class="site-image alt-image">
+                                </picture>
+                            </a>
+                            <a href="<?php the_path( '/project/' . $project['slug'] ); ?>">
+                                <picture>
+                                    <source type="image/webp" srcset="<?php the_project_image_srcset( $project['slug'], 'main', 'webp' ); ?>" sizes="(max-width: 350px) 300px, (max-width: 800px) 768px, 1200px">
+                                    <source type="image/jpeg" srcset="<?php the_project_image_srcset( $project['slug'], 'main' ); ?>" sizes="(max-width: 350px) 300px, (max-width: 800px) 768px, 1200px">
+                                    <img src="<?php the_images_dir( $project['slug'] . '/' . $project['slug'] . '-main.jpg'); ?>" loading="lazy" decoding="async" alt="<?php echo $project['name']; ?> screenshot of home page" class="site-image main-image">
+                                </picture>
+                            </a>
+                            <a href="<?php the_path( '/project/' . $project['slug'] ); ?>">
+                                <picture>
+                                    <source type="image/webp" srcset="<?php the_project_image_srcset( $project['slug'], 'mobile', 'webp' ); ?>" sizes="(max-width: 879px) 21vw, 213px">
+                                    <source type="image/jpeg" srcset="<?php the_project_image_srcset( $project['slug'], 'mobile' ); ?>" sizes="(max-width: 879px) 21vw, 213px">
+                                    <img src="<?php the_images_dir( $project['slug'] . '/' . $project['slug'] . '-mobile.jpg'); ?>" loading="lazy" decoding="async" alt="<?php echo $project['name']; ?> screenshot of mobile page" class="site-image mobile-image">
+                                </picture>
+                            </a>
                         </div>
                     </div>
                 </div>

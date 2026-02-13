@@ -29,9 +29,21 @@
                     </div>
                     <div class="col col--12 site-images-container">
                         <div class="site-images">
-                            <img src="<?php the_images_dir( $vars['slug'] . '/' . $vars['slug'] . '-alt.jpg'); ?>" srcset="<?php the_project_image_srcset( $vars['slug'], 'alt' ); ?>" sizes="(max-width: 879px) 28vw, 284px" alt="Embracing a simpler life screenshot of blog page" class="site-image alt-image">
-                            <img src="<?php the_images_dir( $vars['slug'] . '/' . $vars['slug'] . '-main.jpg'); ?>" srcset="<?php the_project_image_srcset( $vars['slug'], 'main' ); ?>" sizes="(max-width: 879px) 75vw, 760px" alt="Embracing a simpler life screenshot of home page" class="site-image main-image">
-                            <img src="<?php the_images_dir( $vars['slug'] . '/' . $vars['slug'] . '-mobile.jpg'); ?>" srcset="<?php the_project_image_srcset( $vars['slug'], 'mobile' ); ?>" sizes="(max-width: 879px) 21vw, 213px" alt="Embracing a simpler life screenshot of mobile site" class="site-image mobile-image">
+                            <picture>
+                                <source type="image/webp" srcset="<?php the_project_image_srcset( $vars['slug'], 'alt', 'webp' ); ?>" sizes="(max-width: 879px) 28vw, 284px">
+                                <source type="image/jpeg" srcset="<?php the_project_image_srcset( $vars['slug'], 'alt' ); ?>" sizes="(max-width: 879px) 28vw, 284px">
+                                <img src="<?php the_images_dir( $vars['slug'] . '/' . $vars['slug'] . '-alt.jpg'); ?>" loading="lazy" decoding="async" alt="Embracing a simpler life screenshot of blog page" class="site-image alt-image">
+                            </picture>
+                            <picture>
+                                <source type="image/webp" srcset="<?php the_project_image_srcset( $vars['slug'], 'main', 'webp' ); ?>" sizes="(max-width: 879px) 75vw, 760px">
+                                <source type="image/jpeg" srcset="<?php the_project_image_srcset( $vars['slug'], 'main' ); ?>" sizes="(max-width: 879px) 75vw, 760px">
+                                <img src="<?php the_images_dir( $vars['slug'] . '/' . $vars['slug'] . '-main.jpg'); ?>" loading="lazy" decoding="async" alt="Embracing a simpler life screenshot of home page" class="site-image main-image">
+                            </picture>
+                            <picture>
+                                <source type="image/webp" srcset="<?php the_project_image_srcset( $vars['slug'], 'mobile', 'webp' ); ?>" sizes="(max-width: 879px) 21vw, 213px">
+                                <source type="image/jpeg" srcset="<?php the_project_image_srcset( $vars['slug'], 'mobile' ); ?>" sizes="(max-width: 879px) 21vw, 213px">
+                                <img src="<?php the_images_dir( $vars['slug'] . '/' . $vars['slug'] . '-mobile.jpg'); ?>" loading="lazy" decoding="async" alt="Embracing a simpler life screenshot of mobile site" class="site-image mobile-image">
+                            </picture>
                         </div>
                     </div>
                 </header>
@@ -41,7 +53,11 @@
             <div class="container content margin-top--xxl margin-bottom--xxl">
                 <?php echo $vars['description']; ?>
                 <figure class="wp-block-image size-large">
-                    <img src="<?php the_images_dir( $vars['slug'] . '/' . $vars['slug'] . '-main.jpg'); ?>" srcset="<?php the_project_image_srcset( $vars['slug'], 'main' ); ?>" sizes="(max-width: 900px) 100vw, 900px" alt="Embracing a simpler life screenshot of home page">
+                    <picture>
+                        <source type="image/webp" srcset="<?php the_project_image_srcset( $vars['slug'], 'main', 'webp' ); ?>" sizes="(max-width: 900px) 100vw, 900px">
+                        <source type="image/jpeg" srcset="<?php the_project_image_srcset( $vars['slug'], 'main' ); ?>" sizes="(max-width: 900px) 100vw, 900px">
+                        <img src="<?php the_images_dir( $vars['slug'] . '/' . $vars['slug'] . '-main.jpg'); ?>" loading="lazy" decoding="async" alt="Embracing a simpler life screenshot of home page">
+                    </picture>
                 </figure>
             </div>
         </div>

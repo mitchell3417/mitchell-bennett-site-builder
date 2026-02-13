@@ -16,7 +16,10 @@
                         <p class="stats"><a href="https://mitchellbennett.rocks/">mitchellbennett.rocks</a>&nbsp;&nbsp;|&nbsp; <a href="tel:+16363527177">(636) 352–7177</a>&nbsp;&nbsp;|&nbsp; <a href="mailto:mitchell@mitchellbennett.rocks">mitchell@mitchellbennett.rocks</a>&nbsp;&nbsp;|&nbsp; <a href="https://www.google.com/maps/place/Eldon,+MO+65026/@38.34683,-92.5774685,13z">Eldon, MO</a></p>
                     </div>
                     <div class="image">
-                        <img src="<?php the_assets_dir( '/images/mitch-headshot-400x400.jpg' ); ?>" alt="Mitchell Bennett">
+                        <picture>
+                            <source type="image/webp" srcset="<?php the_assets_dir( '/images/mitch-headshot-400x400.webp' ); ?>">
+                            <img src="<?php the_assets_dir( '/images/mitch-headshot-400x400.jpg' ); ?>" decoding="async" alt="Mitchell Bennett">
+                        </picture>
                     </div>
                 </div>
             </div>
