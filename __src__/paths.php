@@ -46,6 +46,48 @@ function the_images_dir( $dir = '' ): void {
 	echo get_images_dir( $dir );
 }
 
+function get_project_image_srcset( string $slug, string $variant ): string {
+	static $width_cache = array();
+	$suffixes = array(
+		'-150x150.jpg',
+		'-169x300.jpg',
+		'-300x225.jpg',
+		'-768x576.jpg',
+		'-1024x768.jpg',
+		'.jpg',
+	);
+	$entries = array();
+	$seen_widths = array();
+
+	foreach ( $suffixes as $suffix ) {
+		$relative = $slug . '/' . $slug . '-' . $variant . $suffix;
+		$file = getcwd() . '/site/assets/images/' . $relative;
+
+		if ( ! is_file( $file ) ) {
+			continue;
+		}
+
+		if ( ! array_key_exists( $relative, $width_cache ) ) {
+			$dimensions = getimagesize( $file );
+			$width_cache[ $relative ] = ( $dimensions !== false && isset( $dimensions[0] ) ) ? (int) $dimensions[0] : null;
+		}
+
+		$width = $width_cache[ $relative ];
+		if ( $width === null || isset( $seen_widths[ $width ] ) ) {
+			continue;
+		}
+
+		$entries[] = get_images_dir( $relative ) . ' ' . $width . 'w';
+		$seen_widths[ $width ] = true;
+	}
+
+	return implode( ', ', $entries );
+}
+
+function the_project_image_srcset( string $slug, string $variant ): void {
+	echo get_project_image_srcset( $slug, $variant );
+}
+
 function the_fav_dir( $dir = '' ): void {
     echo get_assets_dir( '/favicons/' . $dir );
 }
