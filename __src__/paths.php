@@ -16,6 +16,28 @@ function the_assets_dir( $dir = '' ): void {
 	echo get_assets_dir( $dir );
 }
 
+function get_versioned_assets_dir( $path = '' ): string {
+	if ( ! str_starts_with( $path, '/' ) ) {
+		$path = '/' . $path;
+	}
+
+	$asset_url = get_assets_dir( $path );
+	$asset_file = getcwd() . '/site/assets' . $path;
+
+	if ( is_file( $asset_file ) ) {
+		$version = filemtime( $asset_file );
+		if ( $version !== false ) {
+			return $asset_url . '?v=' . $version;
+		}
+	}
+
+	return $asset_url;
+}
+
+function the_versioned_assets_dir( $dir = '' ): void {
+	echo get_versioned_assets_dir( $dir );
+}
+
 function get_images_dir( $dir = '' ): string {
     return get_assets_dir() . 'images/' . $dir;
 }

@@ -20,7 +20,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <?php if ( $env === 'production') : ?><meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline'"><?php endif; ?>
+        <?php if ( $env === 'production') : ?><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://static.cloudflareinsights.com; connect-src 'self' https://cloudflareinsights.com"><?php endif; ?>
 		<?php if ( $env === 'production') : ?><base href="https://mitchellbennett.rocks"><?php endif; ?>
         <link rel="profile" href="http://gmpg.org/xfn/11">
         <!-- SEO Optimization-->

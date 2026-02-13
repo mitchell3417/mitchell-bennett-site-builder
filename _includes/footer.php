@@ -37,7 +37,7 @@
                 <p id="copyright"><small>Copyright &copy;&nbsp;<?php echo '2017-' . date('Y'); ?> Mitchell Bennett LLC. All rights reserved</small></p>
             </div>
         </footer>
-        <script src="<?php the_assets_dir( '/js/main.js' ); ?>"></script>
+        <script src="<?php the_versioned_assets_dir( '/js/main.js' ); ?>" defer></script>
 <!--        <script src="https://www.google.com/recaptcha/api.js"></script>-->
 <!--        <script>-->
 <!--            function onSubmit(token) {-->
