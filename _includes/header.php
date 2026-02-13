@@ -22,12 +22,5 @@
                 </ul>
             </nav>
         </div>
-        <div class="search">
-            <form action="https://www.google.com/search" method="get">
-                <input type="hidden" name="q" value="site:mitchellbennett.rocks">
-                <input type="text" name="q" placeholder="Search">
-                <input type="submit" value="Search">
-            </form>
-        </div>
     </header>
     <div class="position--relative has-white-background-color">
