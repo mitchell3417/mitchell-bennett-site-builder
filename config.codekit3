@@ -753,6 +753,14 @@
       "oAP" : "\/index.php",
       "oF" : 0
     },
+    "\/local_site\/_headers" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/local_site\/_headers",
+      "oF" : 0
+    },
     "\/local_site\/404.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -863,6 +871,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/local_site\/sitemap.xml",
+      "oF" : 0
+    },
+    "\/site\/_headers" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/site\/_headers",
       "oF" : 0
     },
     "\/site\/404.html" : {
@@ -1602,6 +1618,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/site\/assets\/images\/a-great-baby\/a-great-baby-alt-150x150.webp" : {
+      "ft" : 8388608,
+      "iS" : 2480,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/a-great-baby\/a-great-baby-alt-150x150.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/site\/assets\/images\/a-great-baby\/a-great-baby-alt-300x225.jpg" : {
       "ft" : 16384,
       "iS" : 9412,
@@ -1613,6 +1640,17 @@
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/site\/assets\/images\/a-great-baby\/a-great-baby-alt-300x225.webp" : {
+      "ft" : 8388608,
+      "iS" : 5812,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/a-great-baby\/a-great-baby-alt-300x225.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/site\/assets\/images\/a-great-baby\/a-great-baby-alt-768x576.jpg" : {
@@ -1628,6 +1666,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/site\/assets\/images\/a-great-baby\/a-great-baby-alt-768x576.webp" : {
+      "ft" : 8388608,
+      "iS" : 26470,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/a-great-baby\/a-great-baby-alt-768x576.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/site\/assets\/images\/a-great-baby\/a-great-baby-alt-1024x768.jpg" : {
       "ft" : 16384,
       "iS" : 67438,
@@ -1639,6 +1688,17 @@
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/site\/assets\/images\/a-great-baby\/a-great-baby-alt-1024x768.webp" : {
+      "ft" : 8388608,
+      "iS" : 40306,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/a-great-baby\/a-great-baby-alt-1024x768.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/site\/assets\/images\/a-great-baby\/a-great-baby-alt.jpg" : {
@@ -1654,6 +1714,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/site\/assets\/images\/a-great-baby\/a-great-baby-alt.webp" : {
+      "ft" : 8388608,
+      "iS" : 58038,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/a-great-baby\/a-great-baby-alt.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/site\/assets\/images\/a-great-baby\/a-great-baby-main-150x150.jpg" : {
       "ft" : 16384,
       "iS" : 5808,
@@ -1665,6 +1736,17 @@
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/site\/assets\/images\/a-great-baby\/a-great-baby-main-150x150.webp" : {
+      "ft" : 8388608,
+      "iS" : 3416,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/a-great-baby\/a-great-baby-main-150x150.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/site\/assets\/images\/a-great-baby\/a-great-baby-main-300x225.jpg" : {
@@ -1680,6 +1762,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/site\/assets\/images\/a-great-baby\/a-great-baby-main-300x225.webp" : {
+      "ft" : 8388608,
+      "iS" : 7582,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/a-great-baby\/a-great-baby-main-300x225.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/site\/assets\/images\/a-great-baby\/a-great-baby-main-768x576.jpg" : {
       "ft" : 16384,
       "iS" : 52422,
@@ -1691,6 +1784,17 @@
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/site\/assets\/images\/a-great-baby\/a-great-baby-main-768x576.webp" : {
+      "ft" : 8388608,
+      "iS" : 29640,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/a-great-baby\/a-great-baby-main-768x576.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/site\/assets\/images\/a-great-baby\/a-great-baby-main-1024x768.jpg" : {
@@ -1706,6 +1810,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/site\/assets\/images\/a-great-baby\/a-great-baby-main-1024x768.webp" : {
+      "ft" : 8388608,
+      "iS" : 43140,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/a-great-baby\/a-great-baby-main-1024x768.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/site\/assets\/images\/a-great-baby\/a-great-baby-main.jpg" : {
       "ft" : 16384,
       "iS" : 30000,
@@ -1717,6 +1832,17 @@
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/site\/assets\/images\/a-great-baby\/a-great-baby-main.webp" : {
+      "ft" : 8388608,
+      "iS" : 57112,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/a-great-baby\/a-great-baby-main.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/site\/assets\/images\/a-great-baby\/a-great-baby-mobile-150x150.jpg" : {
@@ -1732,6 +1858,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/site\/assets\/images\/a-great-baby\/a-great-baby-mobile-150x150.webp" : {
+      "ft" : 8388608,
+      "iS" : 2422,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/a-great-baby\/a-great-baby-mobile-150x150.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/site\/assets\/images\/a-great-baby\/a-great-baby-mobile-169x300.jpg" : {
       "ft" : 16384,
       "iS" : 7711,
@@ -1743,6 +1880,17 @@
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/site\/assets\/images\/a-great-baby\/a-great-baby-mobile-169x300.webp" : {
+      "ft" : 8388608,
+      "iS" : 3686,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/a-great-baby\/a-great-baby-mobile-169x300.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/site\/assets\/images\/a-great-baby\/a-great-baby-mobile.jpg" : {
@@ -1758,6 +1906,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/site\/assets\/images\/a-great-baby\/a-great-baby-mobile.webp" : {
+      "ft" : 8388608,
+      "iS" : 11790,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/a-great-baby\/a-great-baby-mobile.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/site\/assets\/images\/crosspoint\/crosspoint-alt-150x150.jpg" : {
       "ft" : 16384,
       "iS" : 3150,
@@ -1769,6 +1928,17 @@
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/site\/assets\/images\/crosspoint\/crosspoint-alt-150x150.webp" : {
+      "ft" : 8388608,
+      "iS" : 1220,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/crosspoint\/crosspoint-alt-150x150.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/site\/assets\/images\/crosspoint\/crosspoint-alt-300x225.jpg" : {
@@ -1784,6 +1954,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/site\/assets\/images\/crosspoint\/crosspoint-alt-300x225.webp" : {
+      "ft" : 8388608,
+      "iS" : 2308,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/crosspoint\/crosspoint-alt-300x225.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/site\/assets\/images\/crosspoint\/crosspoint-alt-768x576.jpg" : {
       "ft" : 16384,
       "iS" : 20452,
@@ -1795,6 +1976,17 @@
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/site\/assets\/images\/crosspoint\/crosspoint-alt-768x576.webp" : {
+      "ft" : 8388608,
+      "iS" : 10206,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/crosspoint\/crosspoint-alt-768x576.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/site\/assets\/images\/crosspoint\/crosspoint-alt-1024x768.jpg" : {
@@ -1810,6 +2002,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/site\/assets\/images\/crosspoint\/crosspoint-alt-1024x768.webp" : {
+      "ft" : 8388608,
+      "iS" : 15272,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/crosspoint\/crosspoint-alt-1024x768.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/site\/assets\/images\/crosspoint\/crosspoint-alt.jpg" : {
       "ft" : 16384,
       "iS" : 30000,
@@ -1821,6 +2024,17 @@
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/site\/assets\/images\/crosspoint\/crosspoint-alt.webp" : {
+      "ft" : 8388608,
+      "iS" : 20958,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/crosspoint\/crosspoint-alt.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/site\/assets\/images\/crosspoint\/crosspoint-main-150x150.jpg" : {
@@ -1836,6 +2050,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/site\/assets\/images\/crosspoint\/crosspoint-main-150x150.webp" : {
+      "ft" : 8388608,
+      "iS" : 3292,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/crosspoint\/crosspoint-main-150x150.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/site\/assets\/images\/crosspoint\/crosspoint-main-300x225.jpg" : {
       "ft" : 16384,
       "iS" : 11994,
@@ -1847,6 +2072,17 @@
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/site\/assets\/images\/crosspoint\/crosspoint-main-300x225.webp" : {
+      "ft" : 8388608,
+      "iS" : 7086,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/crosspoint\/crosspoint-main-300x225.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/site\/assets\/images\/crosspoint\/crosspoint-main-768x576.jpg" : {
@@ -1862,6 +2098,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/site\/assets\/images\/crosspoint\/crosspoint-main-768x576.webp" : {
+      "ft" : 8388608,
+      "iS" : 27906,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/crosspoint\/crosspoint-main-768x576.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/site\/assets\/images\/crosspoint\/crosspoint-main-1024x768.jpg" : {
       "ft" : 16384,
       "iS" : 69825,
@@ -1873,6 +2120,17 @@
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/site\/assets\/images\/crosspoint\/crosspoint-main-1024x768.webp" : {
+      "ft" : 8388608,
+      "iS" : 39680,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/crosspoint\/crosspoint-main-1024x768.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/site\/assets\/images\/crosspoint\/crosspoint-main.jpg" : {
@@ -1888,6 +2146,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/site\/assets\/images\/crosspoint\/crosspoint-main.webp" : {
+      "ft" : 8388608,
+      "iS" : 54372,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/crosspoint\/crosspoint-main.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/site\/assets\/images\/crosspoint\/crosspoint-mobile-150x150.jpg" : {
       "ft" : 16384,
       "iS" : 3823,
@@ -1899,6 +2168,17 @@
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/site\/assets\/images\/crosspoint\/crosspoint-mobile-150x150.webp" : {
+      "ft" : 8388608,
+      "iS" : 1838,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/crosspoint\/crosspoint-mobile-150x150.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/site\/assets\/images\/crosspoint\/crosspoint-mobile-169x300.jpg" : {
@@ -1914,6 +2194,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/site\/assets\/images\/crosspoint\/crosspoint-mobile-169x300.webp" : {
+      "ft" : 8388608,
+      "iS" : 3596,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/crosspoint\/crosspoint-mobile-169x300.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/site\/assets\/images\/crosspoint\/crosspoint-mobile.jpg" : {
       "ft" : 16384,
       "iS" : 15581,
@@ -1925,6 +2216,17 @@
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/site\/assets\/images\/crosspoint\/crosspoint-mobile.webp" : {
+      "ft" : 8388608,
+      "iS" : 10572,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/crosspoint\/crosspoint-mobile.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/site\/assets\/images\/embracing-a-simpler-life\/embracing-a-simpler-life-alt.jpg" : {
@@ -1940,6 +2242,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/site\/assets\/images\/embracing-a-simpler-life\/embracing-a-simpler-life-alt.webp" : {
+      "ft" : 8388608,
+      "iS" : 25196,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/embracing-a-simpler-life\/embracing-a-simpler-life-alt.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/site\/assets\/images\/embracing-a-simpler-life\/embracing-a-simpler-life-main-300x225.jpg" : {
       "ft" : 16384,
       "iS" : 15630,
@@ -1951,6 +2264,17 @@
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/site\/assets\/images\/embracing-a-simpler-life\/embracing-a-simpler-life-main-300x225.webp" : {
+      "ft" : 8388608,
+      "iS" : 11280,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/embracing-a-simpler-life\/embracing-a-simpler-life-main-300x225.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/site\/assets\/images\/embracing-a-simpler-life\/embracing-a-simpler-life-main-768x576.jpg" : {
@@ -1966,6 +2290,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/site\/assets\/images\/embracing-a-simpler-life\/embracing-a-simpler-life-main-768x576.webp" : {
+      "ft" : 8388608,
+      "iS" : 50184,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/embracing-a-simpler-life\/embracing-a-simpler-life-main-768x576.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/site\/assets\/images\/embracing-a-simpler-life\/embracing-a-simpler-life-main-1024x768.jpg" : {
       "ft" : 16384,
       "iS" : 30000,
@@ -1977,6 +2312,17 @@
       "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/site\/assets\/images\/embracing-a-simpler-life\/embracing-a-simpler-life-main-1024x768.webp" : {
+      "ft" : 8388608,
+      "iS" : 76770,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/embracing-a-simpler-life\/embracing-a-simpler-life-main-1024x768.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/site\/assets\/images\/embracing-a-simpler-life\/embracing-a-simpler-life-main.jpg" : {
@@ -1992,6 +2338,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/site\/assets\/images\/embracing-a-simpler-life\/embracing-a-simpler-life-main.webp" : {
+      "ft" : 8388608,
+      "iS" : 102824,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/embracing-a-simpler-life\/embracing-a-simpler-life-main.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/site\/assets\/images\/embracing-a-simpler-life\/embracing-a-simpler-life-mobile.jpg" : {
       "ft" : 16384,
       "iS" : 66537,
@@ -2003,6 +2360,17 @@
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/site\/assets\/images\/embracing-a-simpler-life\/embracing-a-simpler-life-mobile.webp" : {
+      "ft" : 8388608,
+      "iS" : 59732,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/embracing-a-simpler-life\/embracing-a-simpler-life-mobile.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/site\/assets\/images\/fayette\/fayette-alt-150x150.jpg" : {
@@ -2018,6 +2386,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/site\/assets\/images\/fayette\/fayette-alt-150x150.webp" : {
+      "ft" : 8388608,
+      "iS" : 2990,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/fayette\/fayette-alt-150x150.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/site\/assets\/images\/fayette\/fayette-alt-300x225.jpg" : {
       "ft" : 16384,
       "iS" : 11489,
@@ -2029,6 +2408,17 @@
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/site\/assets\/images\/fayette\/fayette-alt-300x225.webp" : {
+      "ft" : 8388608,
+      "iS" : 6822,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/fayette\/fayette-alt-300x225.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/site\/assets\/images\/fayette\/fayette-alt-768x576.jpg" : {
@@ -2044,6 +2434,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/site\/assets\/images\/fayette\/fayette-alt-768x576.webp" : {
+      "ft" : 8388608,
+      "iS" : 29496,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/fayette\/fayette-alt-768x576.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/site\/assets\/images\/fayette\/fayette-alt-1024x768.jpg" : {
       "ft" : 16384,
       "iS" : 78646,
@@ -2055,6 +2456,17 @@
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/site\/assets\/images\/fayette\/fayette-alt-1024x768.webp" : {
+      "ft" : 8388608,
+      "iS" : 45338,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/fayette\/fayette-alt-1024x768.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/site\/assets\/images\/fayette\/fayette-alt.jpg" : {
@@ -2070,6 +2482,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/site\/assets\/images\/fayette\/fayette-alt.webp" : {
+      "ft" : 8388608,
+      "iS" : 62102,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/fayette\/fayette-alt.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/site\/assets\/images\/fayette\/fayette-main-150x150.jpg" : {
       "ft" : 16384,
       "iS" : 5767,
@@ -2081,6 +2504,17 @@
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/site\/assets\/images\/fayette\/fayette-main-150x150.webp" : {
+      "ft" : 8388608,
+      "iS" : 3912,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/fayette\/fayette-main-150x150.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/site\/assets\/images\/fayette\/fayette-main-300x225.jpg" : {
@@ -2096,6 +2530,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/site\/assets\/images\/fayette\/fayette-main-300x225.webp" : {
+      "ft" : 8388608,
+      "iS" : 9548,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/fayette\/fayette-main-300x225.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/site\/assets\/images\/fayette\/fayette-main-768x576.jpg" : {
       "ft" : 16384,
       "iS" : 30000,
@@ -2107,6 +2552,17 @@
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/site\/assets\/images\/fayette\/fayette-main-768x576.webp" : {
+      "ft" : 8388608,
+      "iS" : 42392,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/fayette\/fayette-main-768x576.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/site\/assets\/images\/fayette\/fayette-main-1024x768.jpg" : {
@@ -2122,6 +2578,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/site\/assets\/images\/fayette\/fayette-main-1024x768.webp" : {
+      "ft" : 8388608,
+      "iS" : 62246,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/fayette\/fayette-main-1024x768.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/site\/assets\/images\/fayette\/fayette-main.jpg" : {
       "ft" : 16384,
       "iS" : 30000,
@@ -2133,6 +2600,17 @@
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/site\/assets\/images\/fayette\/fayette-main.webp" : {
+      "ft" : 8388608,
+      "iS" : 84464,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/fayette\/fayette-main.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/site\/assets\/images\/fayette\/fayette-mobile-150x150.jpg" : {
@@ -2148,6 +2626,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/site\/assets\/images\/fayette\/fayette-mobile-150x150.webp" : {
+      "ft" : 8388608,
+      "iS" : 3160,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/fayette\/fayette-mobile-150x150.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/site\/assets\/images\/fayette\/fayette-mobile-169x300.jpg" : {
       "ft" : 16384,
       "iS" : 11324,
@@ -2161,6 +2650,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/site\/assets\/images\/fayette\/fayette-mobile-169x300.webp" : {
+      "ft" : 8388608,
+      "iS" : 7200,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/fayette\/fayette-mobile-169x300.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/site\/assets\/images\/fayette\/fayette-mobile.jpg" : {
       "ft" : 16384,
       "iS" : 26904,
@@ -2172,6 +2672,17 @@
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/site\/assets\/images\/fayette\/fayette-mobile.webp" : {
+      "ft" : 8388608,
+      "iS" : 25048,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/fayette\/fayette-mobile.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/site\/assets\/images\/icon-quote.svg" : {
@@ -2207,6 +2718,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/site\/assets\/images\/mitch-headshot-400x400.webp" : {
+      "ft" : 8388608,
+      "iS" : 11056,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/mitch-headshot-400x400.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/site\/assets\/images\/realtybrands\/realtybrands-alt-150x150.jpg" : {
       "ft" : 16384,
       "iS" : 6215,
@@ -2218,6 +2740,17 @@
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/site\/assets\/images\/realtybrands\/realtybrands-alt-150x150.webp" : {
+      "ft" : 8388608,
+      "iS" : 3662,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/realtybrands\/realtybrands-alt-150x150.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/site\/assets\/images\/realtybrands\/realtybrands-alt-300x225.jpg" : {
@@ -2233,6 +2766,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/site\/assets\/images\/realtybrands\/realtybrands-alt-300x225.webp" : {
+      "ft" : 8388608,
+      "iS" : 6712,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/realtybrands\/realtybrands-alt-300x225.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/site\/assets\/images\/realtybrands\/realtybrands-alt-768x576.jpg" : {
       "ft" : 16384,
       "iS" : 44393,
@@ -2244,6 +2788,17 @@
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/site\/assets\/images\/realtybrands\/realtybrands-alt-768x576.webp" : {
+      "ft" : 8388608,
+      "iS" : 24918,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/realtybrands\/realtybrands-alt-768x576.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/site\/assets\/images\/realtybrands\/realtybrands-alt-1024x768.jpg" : {
@@ -2259,6 +2814,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/site\/assets\/images\/realtybrands\/realtybrands-alt-1024x768.webp" : {
+      "ft" : 8388608,
+      "iS" : 35978,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/realtybrands\/realtybrands-alt-1024x768.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/site\/assets\/images\/realtybrands\/realtybrands-alt.jpg" : {
       "ft" : 16384,
       "iS" : 60000,
@@ -2270,6 +2836,17 @@
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/site\/assets\/images\/realtybrands\/realtybrands-alt.webp" : {
+      "ft" : 8388608,
+      "iS" : 49830,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/realtybrands\/realtybrands-alt.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/site\/assets\/images\/realtybrands\/realtybrands-main-300x225.jpg" : {
@@ -2285,6 +2862,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/site\/assets\/images\/realtybrands\/realtybrands-main-300x225.webp" : {
+      "ft" : 8388608,
+      "iS" : 6694,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/realtybrands\/realtybrands-main-300x225.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/site\/assets\/images\/realtybrands\/realtybrands-main-768x576.jpg" : {
       "ft" : 16384,
       "iS" : 43293,
@@ -2296,6 +2884,17 @@
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/site\/assets\/images\/realtybrands\/realtybrands-main-768x576.webp" : {
+      "ft" : 8388608,
+      "iS" : 25842,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/realtybrands\/realtybrands-main-768x576.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/site\/assets\/images\/realtybrands\/realtybrands-main-1024x768.jpg" : {
@@ -2311,6 +2910,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/site\/assets\/images\/realtybrands\/realtybrands-main-1024x768.webp" : {
+      "ft" : 8388608,
+      "iS" : 37878,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/realtybrands\/realtybrands-main-1024x768.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/site\/assets\/images\/realtybrands\/realtybrands-main.jpg" : {
       "ft" : 16384,
       "iS" : 54323,
@@ -2322,6 +2932,17 @@
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/site\/assets\/images\/realtybrands\/realtybrands-main.webp" : {
+      "ft" : 8388608,
+      "iS" : 48158,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/realtybrands\/realtybrands-main.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/site\/assets\/images\/realtybrands\/realtybrands-mobile-150x150.jpg" : {
@@ -2337,6 +2958,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/site\/assets\/images\/realtybrands\/realtybrands-mobile-150x150.webp" : {
+      "ft" : 8388608,
+      "iS" : 3034,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/realtybrands\/realtybrands-mobile-150x150.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/site\/assets\/images\/realtybrands\/realtybrands-mobile-169x300.jpg" : {
       "ft" : 16384,
       "iS" : 8717,
@@ -2348,6 +2980,17 @@
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/site\/assets\/images\/realtybrands\/realtybrands-mobile-169x300.webp" : {
+      "ft" : 8388608,
+      "iS" : 5538,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/realtybrands\/realtybrands-mobile-169x300.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/site\/assets\/images\/realtybrands\/realtybrands-mobile.jpg" : {
@@ -2363,6 +3006,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/site\/assets\/images\/realtybrands\/realtybrands-mobile.webp" : {
+      "ft" : 8388608,
+      "iS" : 15224,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/realtybrands\/realtybrands-mobile.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/site\/assets\/images\/rekreate\/rekreate-alt-150x150.jpg" : {
       "ft" : 16384,
       "iS" : 5023,
@@ -2374,6 +3028,17 @@
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/site\/assets\/images\/rekreate\/rekreate-alt-150x150.webp" : {
+      "ft" : 8388608,
+      "iS" : 3088,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/rekreate\/rekreate-alt-150x150.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/site\/assets\/images\/rekreate\/rekreate-alt-300x225.jpg" : {
@@ -2389,6 +3054,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/site\/assets\/images\/rekreate\/rekreate-alt-300x225.webp" : {
+      "ft" : 8388608,
+      "iS" : 6184,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/rekreate\/rekreate-alt-300x225.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/site\/assets\/images\/rekreate\/rekreate-alt-768x576.jpg" : {
       "ft" : 16384,
       "iS" : 30000,
@@ -2400,6 +3076,17 @@
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/site\/assets\/images\/rekreate\/rekreate-alt-768x576.webp" : {
+      "ft" : 8388608,
+      "iS" : 25732,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/rekreate\/rekreate-alt-768x576.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/site\/assets\/images\/rekreate\/rekreate-alt-1024x768.jpg" : {
@@ -2415,6 +3102,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/site\/assets\/images\/rekreate\/rekreate-alt-1024x768.webp" : {
+      "ft" : 8388608,
+      "iS" : 37286,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/rekreate\/rekreate-alt-1024x768.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/site\/assets\/images\/rekreate\/rekreate-alt.jpg" : {
       "ft" : 16384,
       "iS" : 63917,
@@ -2426,6 +3124,17 @@
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/site\/assets\/images\/rekreate\/rekreate-alt.webp" : {
+      "ft" : 8388608,
+      "iS" : 48272,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/rekreate\/rekreate-alt.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/site\/assets\/images\/rekreate\/rekreate-main-150x150.jpg" : {
@@ -2441,6 +3150,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/site\/assets\/images\/rekreate\/rekreate-main-150x150.webp" : {
+      "ft" : 8388608,
+      "iS" : 3066,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/rekreate\/rekreate-main-150x150.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/site\/assets\/images\/rekreate\/rekreate-main-300x225.jpg" : {
       "ft" : 16384,
       "iS" : 9934,
@@ -2452,6 +3172,17 @@
       "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/site\/assets\/images\/rekreate\/rekreate-main-300x225.webp" : {
+      "ft" : 8388608,
+      "iS" : 6064,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/rekreate\/rekreate-main-300x225.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/site\/assets\/images\/rekreate\/rekreate-main-768x576.jpg" : {
@@ -2467,6 +3198,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/site\/assets\/images\/rekreate\/rekreate-main-768x576.webp" : {
+      "ft" : 8388608,
+      "iS" : 20474,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/rekreate\/rekreate-main-768x576.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/site\/assets\/images\/rekreate\/rekreate-main-1024x768.jpg" : {
       "ft" : 16384,
       "iS" : 55015,
@@ -2478,6 +3220,17 @@
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/site\/assets\/images\/rekreate\/rekreate-main-1024x768.webp" : {
+      "ft" : 8388608,
+      "iS" : 28894,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/rekreate\/rekreate-main-1024x768.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/site\/assets\/images\/rekreate\/rekreate-main.jpg" : {
@@ -2493,6 +3246,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/site\/assets\/images\/rekreate\/rekreate-main.webp" : {
+      "ft" : 8388608,
+      "iS" : 36218,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/rekreate\/rekreate-main.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/site\/assets\/images\/rekreate\/rekreate-mobile-150x150.jpg" : {
       "ft" : 16384,
       "iS" : 6437,
@@ -2504,6 +3268,17 @@
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/site\/assets\/images\/rekreate\/rekreate-mobile-150x150.webp" : {
+      "ft" : 8388608,
+      "iS" : 4154,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/rekreate\/rekreate-mobile-150x150.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/site\/assets\/images\/rekreate\/rekreate-mobile-169x300.jpg" : {
@@ -2519,6 +3294,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/site\/assets\/images\/rekreate\/rekreate-mobile-169x300.webp" : {
+      "ft" : 8388608,
+      "iS" : 8344,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/rekreate\/rekreate-mobile-169x300.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/site\/assets\/images\/rekreate\/rekreate-mobile.jpg" : {
       "ft" : 16384,
       "iS" : 28093,
@@ -2530,6 +3316,17 @@
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/site\/assets\/images\/rekreate\/rekreate-mobile.webp" : {
+      "ft" : 8388608,
+      "iS" : 25098,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/rekreate\/rekreate-mobile.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/site\/assets\/images\/ukatsu\/ukatsu-alt-300x225.jpg" : {
@@ -2545,6 +3342,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/site\/assets\/images\/ukatsu\/ukatsu-alt-300x225.webp" : {
+      "ft" : 8388608,
+      "iS" : 8332,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/ukatsu\/ukatsu-alt-300x225.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/site\/assets\/images\/ukatsu\/ukatsu-alt-768x576.jpg" : {
       "ft" : 16384,
       "iS" : 53795,
@@ -2556,6 +3364,17 @@
       "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/site\/assets\/images\/ukatsu\/ukatsu-alt-768x576.webp" : {
+      "ft" : 8388608,
+      "iS" : 32040,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/ukatsu\/ukatsu-alt-768x576.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/site\/assets\/images\/ukatsu\/ukatsu-alt-1024x768.jpg" : {
@@ -2571,6 +3390,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/site\/assets\/images\/ukatsu\/ukatsu-alt-1024x768.webp" : {
+      "ft" : 8388608,
+      "iS" : 47534,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/ukatsu\/ukatsu-alt-1024x768.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/site\/assets\/images\/ukatsu\/ukatsu-alt.jpg" : {
       "ft" : 16384,
       "iS" : 81316,
@@ -2582,6 +3412,17 @@
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/site\/assets\/images\/ukatsu\/ukatsu-alt.webp" : {
+      "ft" : 8388608,
+      "iS" : 65504,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/ukatsu\/ukatsu-alt.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/site\/assets\/images\/ukatsu\/ukatsu-main-300x225.jpg" : {
@@ -2597,6 +3438,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/site\/assets\/images\/ukatsu\/ukatsu-main-300x225.webp" : {
+      "ft" : 8388608,
+      "iS" : 3068,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/ukatsu\/ukatsu-main-300x225.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/site\/assets\/images\/ukatsu\/ukatsu-main-768x576.jpg" : {
       "ft" : 16384,
       "iS" : 28653,
@@ -2608,6 +3460,17 @@
       "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/site\/assets\/images\/ukatsu\/ukatsu-main-768x576.webp" : {
+      "ft" : 8388608,
+      "iS" : 13588,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/ukatsu\/ukatsu-main-768x576.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/site\/assets\/images\/ukatsu\/ukatsu-main-1024x768.jpg" : {
@@ -2623,6 +3486,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/site\/assets\/images\/ukatsu\/ukatsu-main-1024x768.webp" : {
+      "ft" : 8388608,
+      "iS" : 20394,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/ukatsu\/ukatsu-main-1024x768.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/site\/assets\/images\/ukatsu\/ukatsu-main.jpg" : {
       "ft" : 16384,
       "iS" : 43499,
@@ -2636,6 +3510,17 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/site\/assets\/images\/ukatsu\/ukatsu-main.webp" : {
+      "ft" : 8388608,
+      "iS" : 27548,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/ukatsu\/ukatsu-main.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/site\/assets\/images\/ukatsu\/ukatsu-mobile.jpg" : {
       "ft" : 16384,
       "iS" : 15378,
@@ -2647,6 +3532,17 @@
       "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/site\/assets\/images\/ukatsu\/ukatsu-mobile.webp" : {
+      "ft" : 8388608,
+      "iS" : 11528,
+      "oA" : 0,
+      "oAP" : "\/site\/assets\/images\/ukatsu\/ukatsu-mobile.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/site\/assets\/js\/main.js" : {
